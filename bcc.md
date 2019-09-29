@@ -1,6 +1,6 @@
 # Bcc - Branch on condition cc
 ## Operation
-`If cc = 1 THEN [PC] ← [PC] + d`
+If cc = 1 THEN [PC] ← [PC] + d
 ## Syntax
 `Bcc <label>`
 ## Sample syntax
