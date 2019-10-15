@@ -1,7 +1,7 @@
 # ADDI - Add immediate
 
 ## Operation
-[destination] ← <literal> + [destination]
+[destination] ← \<literal\> + [destination]
 
 ## Syntax
 `ADDI #<data>,<ea>`
