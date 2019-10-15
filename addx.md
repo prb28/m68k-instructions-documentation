@@ -34,6 +34,7 @@ LOOP    ADDX -(A0),-(A1) ;Add pair of numbers
 |X|N|Z|V|C|
 |--|--|--|--|--|
 |*|*|*|*|*|
+
 The Z-bit is cleared if the result is non-zero, and left unchanged
 otherwise. The Z-bit can be used to test for zero after a chain of
 multiple precision operations.
