@@ -38,6 +38,7 @@ Note that there are two types of conditional branch instruction:
 - those that branch on an unsigned condition and those that branch on a signed condition. For example, $FF is greater than $10 when the numbers are regarded as unsigned (i.e., 255 is greater than 16). However, if the numbers are signed, $FF is less than $10 (i.e., -1 is less than 16).
 
 The signed comparisons are:
+
 |Mnemonic|Alias|Description|
 |--|--|--|
 |BGE||branch on greater than or equal
@@ -46,6 +47,7 @@ The signed comparisons are:
 |BLT||branch on less than|
 
 The unsigned comparisons are:
+
 |Mnemonic|Alias|Description|
 |--|--|--|
 |BHS|BCC|branch on higher than or same|
