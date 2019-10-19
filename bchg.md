@@ -1,9 +1,9 @@
 # BCHG - Test a bit and change
 
 ## Operation
-[Z] ← <bit number> OF [destination]
+[Z] ← ¬(\<bit number\> OF [destination])
 
-<bit number> OF [destination] ← <bit number> OF [destination]
+\<bit number\> OF [destination] ← ¬(\<bit number\> OF [destination])
 
 ## Syntax
 ```assembly
