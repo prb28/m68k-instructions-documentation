@@ -2,12 +2,16 @@
 ## Operation
 If cc = 1 THEN [PC] ← [PC] + d
 ## Syntax
-`Bcc <label>`
-## Sample syntax
+```assembly
+Bcc <label>
 ```
+
+## Sample syntax
+```assembly
 BEQ Loop_4
 BVC *+8
 ```
+
 ## Attributes
 `BEQ` takes an 8-bit or a 16-bit offset (i.e., displacement).
 ## Description

@@ -5,7 +5,9 @@
 [destination] ← [source] + [destination]
 
 ## Syntax
-`ADDA <ea>,An`
+```assembly
+ADDA <ea>,An
+```
 
 ## Attributes
 `Size` word, longword

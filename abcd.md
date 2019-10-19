@@ -4,8 +4,10 @@
 [destination]<sub>10</sub> ← [source]<sub>10</sub> + [destination]<sub>10</sub> + [X]
 
 ## Syntax
-`ABCD Dy,Dx`
-`ABCD -(Ay),-(Ax)`
+```assembly
+ABCD Dy,Dx
+ABCD -(Ay),-(Ax)
+````
 
 ## Attributes
 `Size` byte

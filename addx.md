@@ -4,9 +4,10 @@
 [destination] ← [source] + [destination] + [X]
 
 ## Syntax
-`ADDX Dy,Dx`
-
-`ADDX -(Ay),-(Ax)`
+```assembly
+ADDX Dy,Dx
+ADDX -(Ay),-(Ax)
+```
 
 ## Attributes
 `Size` byte, word, longword

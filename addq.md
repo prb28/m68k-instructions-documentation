@@ -4,7 +4,9 @@
 [destination] ← \<literal\> + [destination]
 
 ## Syntax
-`ADDQ #<data>,<ea>`
+```assembly
+ADDQ #<data>,<ea>
+```
 
 ## Sample syntax
 ```assembly

@@ -4,10 +4,10 @@
 [destination] ← [source] . [destination]
 
 ## Syntax
-
-`AND <ea>,Dn`
-
-`AND Dn,<ea>`
+```assembly
+AND <ea>,Dn
+AND Dn,<ea>
+```
 
 ## Attributes
 `Size` byte, word, longword

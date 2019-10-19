@@ -4,7 +4,9 @@
 [destination] ← \<literal\>.[destination]
 
 ## Syntax
-`ANDI #<data>,<ea>`
+```assembly
+ANDI #<data>,<ea>
+```
 
 ## Attributes
 `Size` byte, word, longword

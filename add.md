@@ -4,9 +4,10 @@
 [destination] ← [source] + [destination]
 
 ## Syntax
-`ADD <ea>,Dn`
-
-`ADD Dn,<ea>`
+```assembly
+ADD <ea>,Dn
+ADD Dn,<ea>
+```
 
 ## Attributes
 `Size` byte, word, longword

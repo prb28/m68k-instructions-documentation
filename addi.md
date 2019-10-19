@@ -4,7 +4,9 @@
 [destination] ← \<literal\> + [destination]
 
 ## Syntax
-`ADDI #<data>,<ea>`
+```assembly
+ADDI #<data>,<ea>
+```
 
 ## Attributes
 `Size` byte, word, longword
