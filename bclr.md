@@ -41,6 +41,7 @@ operand is cleared and the new contents of $1234 are: 11101010<sub>2</sub>.
 |X|N|Z|V|C|
 |--|--|--|--|--|
 |-|-|*|-|-|
+
 Z: set if the bit tested is zero, cleared otherwise.
 
 ### Destination operand addressing modes
