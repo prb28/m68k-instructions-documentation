@@ -4,7 +4,7 @@
 ## Operation
 [destination] ← [destination] shifted by \<count\>
 
-Syntax:
+## Syntax
 ```assembly
 ASL Dx,Dy
 ASR Dx,Dy
