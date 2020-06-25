@@ -1,7 +1,7 @@
 ## LEA Load effective address
 
 ## Operation
-[An] ← <ea>
+[An] ← \<ea\>
 
 ## Syntax
 ```assembly
