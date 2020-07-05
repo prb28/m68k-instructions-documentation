@@ -18,8 +18,7 @@ onto the supervisor stack at the start of exception processing.
 
 
 ## Application
-Any *unknown* pattern of bits read by the 68000 during an instruc-
-tion read phase will cause an illegal instruction trap. The `ILLEGAL`
+Any *unknown* pattern of bits read by the 68000 during an instruction read phase will cause an illegal instruction trap. The `ILLEGAL`
 instruction can be thought of as an *official* illegal instruction. It
 can be used to test the illegal instruction trap and will always be
 an illegal instruction in any future enhancement of the 68000.

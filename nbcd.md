@@ -1,7 +1,7 @@
-## NBCD Negate decimal with sign extend
+## NBCD - Negate decimal with sign extend
 
 ## Operation
-[destination] 10 ← 0 − [destination] 10 - [X]
+[destination]<sub>10</sub> ← 0 − [destination]<sub>10</sub> - [X]
 
 ## Syntax
 ```assembly
@@ -19,7 +19,7 @@ using binary coded decimal (BCD) arithmetic. This instruction
 calculates the tenís complement of the destination if the X-bit is
 clear, and the nineís complement if X = 1. This is a byte-only
 operation. Negating a BCD number (with X = 0) has the effect of
-subtracting it from 100 10.
+subtracting it from 100<sub>10</sub>.
 
 ## Condition codes
 |X|N|Z|V|C|
@@ -34,3 +34,5 @@ is set to the same value as the C-bit.
 |Dn|An|(An)|(An)+|-(An)|(d,An)|(d,An,Xi)|ABS.W|ABS.L|(d,PC)|(d,PC,Xn)|imm|
 |:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
 |✓||✓|✓|✓|✓|✓|✓|✓||||
+
+*From MOTOROLA M68000 FAMILY Programmer's reference manual. Copyright 1992 by Motorola Inc./NXP. Adapted with permission.*

@@ -17,8 +17,7 @@ Size = word
 
 ## Description
 The `DBcc` instruction provides an automatic looping facility and
-replaces the usual decrement counter, test, and branch instruc-
-tions. Three parameters are required by the `DBcc` instruction: a
+replaces the usual decrement counter, test, and branch instructions. Three parameters are required by the `DBcc` instruction: a
 branch condition (specified by 'cc'), a data register that serves as
 the loop down-counter, and a label that indicates the start of the
 loop. The `DBcc` first tests the condition 'cc', and if 'cc' is true the

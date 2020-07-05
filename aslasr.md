@@ -31,17 +31,14 @@ least-significant bit position and to shift the most-significant bit
 out into both the X- and the C-bits of the CCR. The overflow bit
 of the CCR is set if a sign change occurs during shifting (i.e., if
 the most-significant bit changes value during shifting).
-The effect of an arithmetic shift right is to shift the least-
-significant bit into both the X- and C-bits of the CCR. The most-
-significant bit (i.e., the sign bit) is replicated to preserve the sign of
+The effect of an arithmetic shift right is to shift the least-significant bit into both the X- and C-bits of the CCR. The most-significant bit (i.e., the sign bit) is replicated to preserve the sign of
 the number.
 
 ![ASL ASR schema](aslasr.png)
 
 ## Application
 ASL multiplies a twoís complement number by 2. ASL is almost
-identical to the corresponding logical shift, LSR. The only differ-
-ence between ASL and LSL is that ASL sets the V-bit of the CCR if
+identical to the corresponding logical shift, LSR. The only difference between ASL and LSL is that ASL sets the V-bit of the CCR if
 overflow occurs, while LSL clears the V-bit to zero. An ASR divides
 a twoís complement number by 2. When applied to the contents
 of a memory location, all 68000 shift operations operate on a word.

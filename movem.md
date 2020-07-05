@@ -40,8 +40,7 @@ instruction. Note that either a word or a longword can be moved,
 and that a word is sign-extended to a longword when it is moved
 (even if the destination is a data register).
 When a group of registers is transferred to or from memory
-(using an addressing mode other than pre-decrementing or post-
-incrementing), the registers are transferred starting at the specified
+(using an addressing mode other than pre-decrementing or postincrementing), the registers are transferred starting at the specified
 address and up through higher addresses. The order of transfer
 of registers is data register D0 to D7, followed by address register
 A0 to A7.

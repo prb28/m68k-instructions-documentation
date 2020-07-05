@@ -15,8 +15,7 @@ Size = byte, word, longword
 ## Description
 The operand is compared with zero. No result is saved, but the
 contents of the CCR are set according to the result. The effect of
-TST <ea> is the same as CMPI #0,<ea> except that the CMPI in-
-struction also sets/clears the V- and C-bits of the CCR.
+TST <ea> is the same as CMPI #0,<ea> except that the CMPI instruction also sets/clears the V- and C-bits of the CCR.
 
 
 ## Condition codes

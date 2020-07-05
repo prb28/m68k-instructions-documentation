@@ -25,9 +25,7 @@ as the sign of the dividend (unless the remainder is zero).
 
 Attempting to divide a number by zero results in a divide-by-zero
 exception. If overflow is detected during division, the operands
-are unaffected. Overflow is checked for at the start of the opera-
-tion and occurs if the quotient is larger than a 16-bit signed inte-
-ger. If the upper word of the dividend is greater than or equal to
+are unaffected. Overflow is checked for at the start of the operation and occurs if the quotient is larger than a 16-bit signed integer. If the upper word of the dividend is greater than or equal to
 the divisor, the V-bit is set and the instruction terminated.
 
 ## Application
@@ -44,9 +42,7 @@ Consider the division of D0 by D1, `DIVU D1,D0`, which results in:
 |-|*|*|*|0|
 
 The X-bit is not affected by a division. The N-bit is set if the
-quotient is negative. The Z-bit is set if the quotient is zero. The V-
-bit is set if division overflow occurs (in which case the Z- and N-
-bits are undefined). The C-bit is always cleared.
+quotient is negative. The Z-bit is set if the quotient is zero. The V-bit is set if division overflow occurs (in which case the Z- and N-bits are undefined). The C-bit is always cleared.
 
 ## Source operand addressing modes
 |Dn|An|(An)|(An)+|-(An)|(d,An)|(d,An,Xi)|ABS.W|ABS.L|(d,PC)|(d,PC,Xn)|imm|

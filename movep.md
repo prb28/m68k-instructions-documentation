@@ -28,8 +28,7 @@ conjunction with 8-bit peripherals connected to the 68000's 16-bit
 data bus. The high-order byte of the data register is transferred
 first and the low-order byte transferred last. The memory address
 is specified by the address register indirect mode with a 16-bit
-offset. If the address is even, all transfers are to or from the high-
-order half of the data bus. If the address is odd, all the transfers
+offset. If the address is even, all transfers are to or from the high-order half of the data bus. If the address is odd, all the transfers
 are made to the low-order half of the data bus.
 
 ## Application
