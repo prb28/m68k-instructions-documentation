@@ -1,15 +1,17 @@
-## LSL, LSR Logical shift left/right
+## LSL, LSR - Logical shift left/right
 
 ## Operation
-[destination] ← [destination] shifted by <count>
+[destination] ← [destination] shifted by \<count\>
 
 ## Syntax
+```assembly
 LSL Dx,Dy
 LSR Dx,Dy
 LSL #<data>,Dy
 LSR #<data>,Dy
 LSL <ea>
 LSR <ea>
+```
 
 ## Attributes
 Size = byte, word, longword
@@ -22,13 +24,14 @@ The shift count may be specified in one of three ways. The count
 may be a literal, the contents of a data register, or the value 1. An
 immediate count permits a shift of 1 to 8 places. If the count is in
 a register, the value is modulo 64 ó from 0 to 63. If no count is
-specified, one shift is made (e.g., LSL <ea> shifts the word at the
+specified, one shift is made (e.g., `LSL <ea>` shifts the *word* at the
 effective address one position left).
 
+![LSL LSR schema](lsl.png)
 
 ## Application
-If [D3.W] = 1100110010101110 2 , the instruction LSL.W #5,D3
-produces the result 1001010111000000 2. After the shift, both the
+If [D3.W] = 1100110010101110<sub>2</sub> , the instruction `LSL.W #5,D3`
+produces the result 1001010111000000<sub>2</sub>. After the shift, both the
 X-and C-bits of the CCR are set to 1 (since the last bit shifted out
 was a 1).
 
@@ -46,3 +49,4 @@ unaffected and the C-bit cleared.
 |:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
 |✓||✓|✓|✓|✓|✓|✓|✓||||
 
+*From MOTOROLA M68000 FAMILY Programmer's reference manual. Copyright 1992 by Motorola Inc./NXP. Adapted with permission.*

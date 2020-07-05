@@ -1,11 +1,13 @@
-## MOVEP Move peripheral data
+## MOVEP - Move peripheral data
 
 ## Operation
 [destination] ← [source]
 
 ## Syntax
+```assembly
 MOVEP Dx,(d,Ay)
 MOVEP (d,Ay),Dx
+```
 
 ## Sample syntax
 ```assembly
@@ -17,9 +19,9 @@ MOVEP (Input,A6),D5
 Size = word, longword
 
 ## Description
-The MOVEP operation moves data between a data register and a
+The `MOVEP` operation moves data between a data register and a
 byte-oriented memory mapped peripheral. The data is moved
-between the specified data register and alternate bytes within the
+between the specified data register and *alternate bytes* within the
 peripheralís address space, starting at the location specified and
 incrementing by two. This instruction is designed to be used in
 conjunction with 8-bit peripherals connected to the 68000's 16-bit
@@ -41,19 +43,14 @@ by the following code.
 LEA $080001,A0
 MOVEP.L D0,0(A0)
 ```
-```
+
 This code results in the following actions:
-```
 
-##### [M(080001)] ← [D0(24:31)]
+![MOVEP schema](movep.png)
 
-##### [M(080003)] ← [D0(16:23)]
+## Condition codes
+|X|N|Z|V|C|
+|--|--|--|--|--|
+|-|-|-|-|-|
 
-##### [M(080005)] ← [D0(8:15)]
-
-##### [M(080007)] ← [D0(0:7)]
-
-Condition codes:X N Z C V
-
-- - - - -
-
+*From MOTOROLA M68000 FAMILY Programmer's reference manual. Copyright 1992 by Motorola Inc./NXP. Adapted with permission.*
