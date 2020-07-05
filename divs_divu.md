@@ -1,4 +1,4 @@
-## DIVS, DIVU Signed divide, unsigned divide
+## DIVS, DIVU - Signed divide, unsigned divide
 
 ## Operation
 [destination] ← [destination]/[source]
@@ -52,3 +52,5 @@ bits are undefined). The C-bit is always cleared.
 |Dn|An|(An)|(An)+|-(An)|(d,An)|(d,An,Xi)|ABS.W|ABS.L|(d,PC)|(d,PC,Xn)|imm|
 |:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
 |✓||✓|✓|✓|✓|✓|✓|✓|✓|✓|✓|
+
+*From MOTOROLA M68000 FAMILY Programmer's reference manual. Copyright 1992 by Motorola Inc./NXP. Adapted with permission.*

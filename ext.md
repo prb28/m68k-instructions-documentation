@@ -1,4 +1,4 @@
-## EXT Sign-extend a data register
+## EXT - Sign-extend a data register
 
 ## Operation
 [destination] ← sign-extended[destination]
@@ -28,3 +28,4 @@ If `[D0] = $12345678, EXT.L D0` results in 00005678 16
 |--|--|--|--|--|
 |-|*|*|0|0|
 
+*From MOTOROLA M68000 FAMILY Programmer's reference manual. Copyright 1992 by Motorola Inc./NXP. Adapted with permission.*

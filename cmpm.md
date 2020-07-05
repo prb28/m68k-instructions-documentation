@@ -1,4 +1,4 @@
-## CMPM Compare memory with memory
+## CMPM - Compare memory with memory
 
 ## Operation
 [destination] - [source]
@@ -42,3 +42,4 @@ RPT CMPM.W (A0)+,(A1)+    ;Compare pair of words
 |--|--|--|--|--|
 |-|*|*|*|*|
 
+*From MOTOROLA M68000 FAMILY Programmer's reference manual. Copyright 1992 by Motorola Inc./NXP. Adapted with permission.*

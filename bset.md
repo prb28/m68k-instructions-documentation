@@ -1,4 +1,4 @@
-# BSET Test a bit and set
+# BSET - Test a bit and set
 
 ## Operation
 [Z] ← \<bit number\> OF [destination]<br/>
@@ -41,3 +41,5 @@ Destination operand addressing mode for BSET Dn,<ea> form
 |✓||✓|✓|✓|✓|✓|✓|✓||||
 
 Note that data register direct (i.e., Dn) addressing uses a longword operand, while all other modes use a byte operand.
+
+*From MOTOROLA M68000 FAMILY Programmer's reference manual. Copyright 1992 by Motorola Inc./NXP. Adapted with permission.*

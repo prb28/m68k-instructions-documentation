@@ -1,4 +1,4 @@
-## JSR Jump to subroutine
+## JSR - Jump to subroutine
 
 ## Operation
 [SP] ← [SP] - 4; [M([SP])] ← [PC]<br/>
@@ -32,3 +32,5 @@ The instruction `JSR (Ai,Dj)` calls the procedure at the location
 |Dn|An|(An)|(An)+|-(An)|(d,An)|(d,An,Xi)|ABS.W|ABS.L|(d,PC)|(d,PC,Xn)|imm|
 |:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
 |||✓|||✓|✓|✓|✓|✓|✓||
+
+*From MOTOROLA M68000 FAMILY Programmer's reference manual. Copyright 1992 by Motorola Inc./NXP. Adapted with permission.*

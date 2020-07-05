@@ -1,4 +1,4 @@
-## CMP Compare
+## CMP - Compare
 
 ## Operation
 [destination] - [source]
@@ -29,3 +29,5 @@ data register. The destination is not modified by this instruction.
 |Dn|An|(An)|(An)+|-(An)|(d,An)|(d,An,Xi)|ABS.W|ABS.L|(d,PC)|(d,PC,Xn)|imm|
 |:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
 |✓|✓|✓|✓|✓|✓|✓|✓|✓|✓|✓|✓|
+
+*From MOTOROLA M68000 FAMILY Programmer's reference manual. Copyright 1992 by Motorola Inc./NXP. Adapted with permission.*

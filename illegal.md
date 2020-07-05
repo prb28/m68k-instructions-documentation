@@ -1,4 +1,4 @@
-## ILLEGAL Illegal instruction
+## ILLEGAL - Illegal instruction
 
 ## Operation
 [SSP] ← [SSP] - 4; [M([SSP])] ← [PC];<br/>
@@ -28,3 +28,5 @@ an illegal instruction in any future enhancement of the 68000.
 |X|N|Z|V|C|
 |--|--|--|--|--|
 |-|-|-|-|-|
+
+*From MOTOROLA M68000 FAMILY Programmer's reference manual. Copyright 1992 by Motorola Inc./NXP. Adapted with permission.*

@@ -1,4 +1,4 @@
-## LINK Link and allocate
+## LINK - Link and allocate
 
 ## Operation
 [SP] ← [SP] - 4; [M([SP])] ← [An];
@@ -55,3 +55,4 @@ RTS Return from subroutine
 
 The LINK instruction does not affect the CCR.
 
+*From MOTOROLA M68000 FAMILY Programmer's reference manual. Copyright 1992 by Motorola Inc./NXP. Adapted with permission.*

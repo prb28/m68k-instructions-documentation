@@ -1,4 +1,4 @@
-## BSR Branch to subroutine
+## BSR - Branch to subroutine
 
 ## Operation
 [SP] ← [SP] - 4; [M([SP])] ← [PC]; [PC] ← [PC] + d
@@ -34,3 +34,4 @@ its use is preferable to JSR.
 |--|--|--|--|--|
 |-|-|-|-|-|
 
+*From MOTOROLA M68000 FAMILY Programmer's reference manual. Copyright 1992 by Motorola Inc./NXP. Adapted with permission.*

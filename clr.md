@@ -1,4 +1,4 @@
-## CLR Clear an operand
+## CLR - Clear an operand
 
 ## Operation
 [destination] ← 0
@@ -32,3 +32,5 @@ stances this might cause a problem (e.g., with write-only memory).
 |Dn|An|(An)|(An)+|-(An)|(d,An)|(d,An,Xi)|ABS.W|ABS.L|(d,PC)|(d,PC,Xn)|imm|
 |:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
 |✓||✓|✓|✓|✓|✓|✓|✓||||
+
+*From MOTOROLA M68000 FAMILY Programmer's reference manual. Copyright 1992 by Motorola Inc./NXP. Adapted with permission.*

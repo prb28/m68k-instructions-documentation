@@ -1,4 +1,4 @@
-# BRA Branch always
+# BRA - Branch always
 
 ## Operation
 [PC] ← [PC] + d
@@ -30,3 +30,4 @@ position independent code.
 |--|--|--|--|--|
 |-|-|-|-|-|
 
+*From MOTOROLA M68000 FAMILY Programmer's reference manual. Copyright 1992 by Motorola Inc./NXP. Adapted with permission.*

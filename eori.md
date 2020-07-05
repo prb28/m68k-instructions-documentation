@@ -1,5 +1,5 @@
 
-## EORI EOR immediate
+## EORI - EOR immediate
 
 ## Operation
 [destination] ← <literal> ⊕ [destination]
@@ -86,5 +86,4 @@ Z:= toggled if bit 2 of data = 1; unchanged otherwise<br/>
 V:= toggled if bit 1 of data = 1; unchanged otherwise<br/>
 C:= toggled if bit 0 of data = 1; unchanged otherwise<br/>
 
-
-
+*From MOTOROLA M68000 FAMILY Programmer's reference manual. Copyright 1992 by Motorola Inc./NXP. Adapted with permission.*

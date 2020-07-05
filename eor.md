@@ -1,4 +1,4 @@
-## EOR Exclusive OR logical
+## EOR - Exclusive OR logical
 
 ## Operation
 [destination] ← [source] ⊕ [destination]
@@ -37,3 +37,4 @@ D1 and results in [D1] = 10100101.
 |:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
 |✓||✓|✓|✓|✓|✓|✓|✓||||
 
+*From MOTOROLA M68000 FAMILY Programmer's reference manual. Copyright 1992 by Motorola Inc./NXP. Adapted with permission.*

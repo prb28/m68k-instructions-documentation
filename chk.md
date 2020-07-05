@@ -1,4 +1,4 @@
-## CHK Check register against bounds
+## CHK  - Check register against bounds
 
 ## Operation
 IF [Dn] < 0 OR [Dn] > [\<ea\>] THEN TRAP
@@ -41,3 +41,5 @@ N: set if [Dn] < 0 ; cleared if [Dn] > [\<ea\>]; undefined otherwise.
 |Dn|An|(An)|(An)+|-(An)|(d,An)|(d,An,Xi)|ABS.W|ABS.L|(d,PC)|(d,PC,Xn)|imm|
 |:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
 |✓||✓|✓|✓|✓|✓|✓|✓||||
+
+*From MOTOROLA M68000 FAMILY Programmer's reference manual. Copyright 1992 by Motorola Inc./NXP. Adapted with permission.*

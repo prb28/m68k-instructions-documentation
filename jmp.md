@@ -1,4 +1,4 @@
-## JMP Jump (unconditionally)
+## JMP - Jump (unconditionally)
 
 ## Operation
 [PC] ← destination
@@ -33,3 +33,4 @@ while `BRA` provides a single addressing mode (i.e., PC relative).
 |:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
 |||✓|||✓|✓|✓|✓|✓|✓||
 
+*From MOTOROLA M68000 FAMILY Programmer's reference manual. Copyright 1992 by Motorola Inc./NXP. Adapted with permission.*
