@@ -22,8 +22,7 @@ with address register indirect using pre-decrementing.
 ## Application
 The `ABCD` instruction is used in chain arithmetic to add together
 strings of `BCD` digits. Consider the addition of two nine-digit
-numbers. Note that the strings are stored so that the least-
-significant digit is at the high address.
+numbers. Note that the strings are stored so that the least-significant digit is at the high address.
 
 ```assembly
         LEA Number1,A0      ;A0 points at first string
