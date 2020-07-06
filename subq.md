@@ -1,4 +1,4 @@
-## SUBQ Subtract quick
+# SUBQ - Subtract quick
 
 ## Operation
 [destination] ← [destination] - <literal>
@@ -28,3 +28,4 @@ address.
 |:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
 |✓||✓|✓|✓|✓|✓|✓|✓||||
 
+*From MOTOROLA M68000 FAMILY Programmer's reference manual. Copyright 1992 by Motorola Inc./NXP. Adapted with permission.*
