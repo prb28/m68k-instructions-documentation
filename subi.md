@@ -1,5 +1,4 @@
-
-## SUBI Subtract immediate
+# SUBI - Subtract immediate
 
 ## Operation
 [destination] ← [destination] - <literal>
@@ -10,7 +9,7 @@ SUBI #<data>,<ea>
 ```
 
 ## Attributes
-Size = byte, word, longword
+`Size` byte, word, longword
 
 ## Description
 Subtract the immediate data from the destination operand. Store
@@ -26,3 +25,4 @@ the result in the destination operand.
 |:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
 |✓||✓|✓|✓|✓|✓|✓|✓||||
 
+*From MOTOROLA M68000 FAMILY Programmer's reference manual. Copyright 1992 by Motorola Inc./NXP. Adapted with permission.*
