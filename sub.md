@@ -1,14 +1,16 @@
-## SUB Subtract binary
+# SUB - Subtract binary
 
 ## Operation
 [destination] ← [destination] - [source]
 
 ## Syntax
+```assembly
 SUB <ea>,Dn
 SUB Dn,<ea>
+```
 
 ## Attributes
-Size = byte, word, longword
+`Size` byte, word, longword
 
 ## Description
 Subtract the source operand from the destination operand and
@@ -22,7 +24,7 @@ store the result in the destination location.
 ## Source operand addressing modes
 |Dn|An|(An)|(An)+|-(An)|(d,An)|(d,An,Xi)|ABS.W|ABS.L|(d,PC)|(d,PC,Xn)|imm|
 |:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
-|✓||✓|✓|✓|✓|✓|✓|✓||||
+|✓|✓|✓|✓|✓|✓|✓|✓|✓|✓|✓|✓|
 
 
 ## Destination operand addressing modes
@@ -30,3 +32,4 @@ store the result in the destination location.
 |:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
 |✓||✓|✓|✓|✓|✓|✓|✓||||
 
+*From MOTOROLA M68000 FAMILY Programmer's reference manual. Copyright 1992 by Motorola Inc./NXP. Adapted with permission.*
