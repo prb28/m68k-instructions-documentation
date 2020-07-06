@@ -34,3 +34,4 @@ TRAP    #15    Now call the operating system
 |--|--|--|--|--|
 |-|-|-|-|-|
 
+*From MOTOROLA M68000 FAMILY Programmer's reference manual. Copyright 1992 by Motorola Inc./NXP. Adapted with permission.*
