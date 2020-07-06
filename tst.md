@@ -1,4 +1,4 @@
-## TST Test an operand
+# TST Test an operand
 
 ## Operation
 [CCR] ← tested([operand])
@@ -10,12 +10,12 @@ TST <ea>
 ```
 
 ## Attributes
-Size = byte, word, longword
+`Size` byte, word, longword
 
 ## Description
 The operand is compared with zero. No result is saved, but the
-contents of the CCR are set according to the result. The effect of
-TST <ea> is the same as CMPI #0,<ea> except that the CMPI instruction also sets/clears the V- and C-bits of the CCR.
+contents of the *CCR* are set according to the result. The effect of
+`TST <ea>` is the same as `CMPI #0,<ea>` except that the `CMPI` instruction also sets/clears the V- and C-bits of the *CCR*.
 
 
 ## Condition codes
@@ -26,5 +26,5 @@ TST <ea> is the same as CMPI #0,<ea> except that the CMPI instruction also sets/
 ## Source operand addressing modes
 |Dn|An|(An)|(An)+|-(An)|(d,An)|(d,An,Xi)|ABS.W|ABS.L|(d,PC)|(d,PC,Xn)|imm|
 |:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
-|✓||✓|✓|✓|✓|✓|✓|✓||||
+|✓||✓|✓|✓|✓|✓|✓|✓|✓|✓||
 
