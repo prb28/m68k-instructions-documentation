@@ -1,4 +1,4 @@
-## SUBA Subtract address
+# SUBA - Subtract address
 
 ## Operation
 [destination] ← [destination] - [source]
@@ -9,7 +9,7 @@ SUBA <ea>,An
 ```
 
 ## Attributes
-Size = word, longword
+`Size` word, longword
 
 ## Description
 Subtract the source operand from the destination operand and
@@ -24,5 +24,6 @@ operations are sign-extended to 32 bits prior to subtraction.
 ## Source operand addressing modes
 |Dn|An|(An)|(An)+|-(An)|(d,An)|(d,An,Xi)|ABS.W|ABS.L|(d,PC)|(d,PC,Xn)|imm|
 |:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
-|✓||✓|✓|✓|✓|✓|✓|✓||||
+|✓|✓|✓|✓|✓|✓|✓|✓|✓|✓|✓|✓|
 
+*From MOTOROLA M68000 FAMILY Programmer's reference manual. Copyright 1992 by Motorola Inc./NXP. Adapted with permission.*
