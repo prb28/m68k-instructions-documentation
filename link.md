@@ -1,4 +1,4 @@
-## LINK - Link and allocate
+# LINK - Link and allocate
 
 ## Operation
 [SP] ← [SP] - 4; [M([SP])] ← [An];

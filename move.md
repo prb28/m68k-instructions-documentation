@@ -1,4 +1,4 @@
-## MOVE - Copy data from source to destination
+# MOVE - Copy data from source to destination
 
 ## Operation
 [destination] ← [source]
@@ -76,7 +76,7 @@ the CCR. For example, `MOVE #0,CCR` clears all the CCRís bits.
 |:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
 |✓||✓|✓|✓|✓|✓|✓|✓|✓|✓|✓|
 
-## MOVE from SR - Copy data from SR to destination
+# MOVE from SR - Copy data from SR to destination
 
 ## Operation
 [destination] ← [SR]
@@ -107,7 +107,7 @@ these processors results in a privilege violation trap.
 |✓||✓|✓|✓|✓|✓|✓|✓||||
 
 
-## MOVE to SR - Copy data to SR from source
+# MOVE to SR - Copy data to SR from source
 
 ## Operation
 IF [S] = 1<br/>
@@ -146,7 +146,7 @@ and sets the interrupt mask level to 7.
 |:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
 |✓||✓|✓|✓|✓|✓|✓|✓|✓|✓|✓|
 
-## MOVE USP - Copy data to or from USP
+# MOVE USP - Copy data to or from USP
 
 ## Operation 1
 IF [S] = 1&nbsp;&nbsp;&nbsp;&nbsp;{MOVE USP,An form}<br/>

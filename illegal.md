@@ -1,4 +1,4 @@
-## ILLEGAL - Illegal instruction
+# ILLEGAL - Illegal instruction
 
 ## Operation
 [SSP] ← [SSP] - 4; [M([SSP])] ← [PC];<br/>

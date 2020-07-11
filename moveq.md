@@ -1,4 +1,4 @@
-## MOVEQ - Move quick (copy a small literal to a destination)
+# MOVEQ - Move quick (copy a small literal to a destination)
 
 ## Operation
 [destination] ← \<literal\>

@@ -1,4 +1,4 @@
-## DIVS, DIVU - Signed divide, unsigned divide
+# DIVS, DIVU - Signed divide, unsigned divide
 
 ## Operation
 [destination] ← [destination]/[source]

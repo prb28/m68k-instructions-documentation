@@ -1,4 +1,4 @@
-## OR - OR logical
+# OR - OR logical
 
 ## Operation
 [destination] ← [source] + [destination]

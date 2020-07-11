@@ -1,4 +1,4 @@
-## MOVEP - Move peripheral data
+# MOVEP - Move peripheral data
 
 ## Operation
 [destination] ← [source]

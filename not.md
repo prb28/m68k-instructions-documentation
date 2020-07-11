@@ -1,4 +1,4 @@
-## NOT - Logical complement
+# NOT - Logical complement
 
 ## Operation
 [destination] ← [destination]

@@ -1,4 +1,4 @@
-## EXG - Exchange registers
+# EXG - Exchange registers
 
 ## Operation
 [Rx] ← [Ry]; [Ry] ← [Rx]

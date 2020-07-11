@@ -1,9 +1,8 @@
-## JSR - Jump to subroutine
+# JSR - Jump to subroutine
 
 ## Operation
 [SP] ← [SP] - 4; [M([SP])] ← [PC]<br/>
 [PC] ← destination
-
 
 ## Syntax
 ```assembly

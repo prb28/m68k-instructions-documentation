@@ -1,4 +1,4 @@
-## PEA - Push effective address
+# PEA - Push effective address
 
 ## Operation
 [SP] ← [SP] - 4; [M([SP])] ← \<ea\>

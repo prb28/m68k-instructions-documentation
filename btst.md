@@ -1,4 +1,4 @@
-## BTST - Test a bit
+# BTST - Test a bit
 
 ## Operation
 [Z] ← <bit number> OF [destination]

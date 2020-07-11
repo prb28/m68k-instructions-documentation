@@ -1,4 +1,4 @@
-## EXT - Sign-extend a data register
+# EXT - Sign-extend a data register
 
 ## Operation
 [destination] ← sign-extended[destination]

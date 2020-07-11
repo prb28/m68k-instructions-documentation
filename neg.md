@@ -1,4 +1,4 @@
-## NEG Negate
+# NEG Negate
 
 ## Operation
 [destination] ← 0 - [destination]

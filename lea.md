@@ -1,4 +1,4 @@
-## LEA - Load effective address
+# LEA - Load effective address
 
 ## Operation
 [An] ← \<ea\>

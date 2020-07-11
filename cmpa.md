@@ -1,4 +1,4 @@
-## CMPA - Compare address
+# CMPA - Compare address
 
 ## Operation
 [destination] - [source]

@@ -1,4 +1,4 @@
-## JMP - Jump (unconditionally)
+# JMP - Jump (unconditionally)
 
 ## Operation
 [PC] ← destination

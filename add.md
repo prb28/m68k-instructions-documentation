@@ -1,4 +1,4 @@
-## ADD - Add binary
+# ADD - Add binary
 
 ## Operation
 [destination] ← [source] + [destination]

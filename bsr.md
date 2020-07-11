@@ -1,4 +1,4 @@
-## BSR - Branch to subroutine
+# BSR - Branch to subroutine
 
 ## Operation
 [SP] ← [SP] - 4; [M([SP])] ← [PC]; [PC] ← [PC] + d

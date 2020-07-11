@@ -1,4 +1,4 @@
-## NEGX - Negate with extend
+# NEGX - Negate with extend
 
 ## Operation
 [destination] ← 0 - [destination] - [X]

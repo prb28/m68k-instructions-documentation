@@ -1,4 +1,4 @@
-## CMPI - Compare immediate
+# CMPI - Compare immediate
 
 ## Operation
 [destination] - \<immediate data\>

@@ -1,4 +1,4 @@
-## CMP - Compare
+# CMP - Compare
 
 ## Operation
 [destination] - [source]

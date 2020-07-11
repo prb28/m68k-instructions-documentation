@@ -1,4 +1,4 @@
-## ORI - OR immediate
+# ORI - OR immediate
 
 ## Operation
 [destination] ← <literal> + [destination]

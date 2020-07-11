@@ -1,6 +1,4 @@
-
-## EORI - EOR immediate
-
+# EORI - EOR immediate
 ## Operation
 [destination] ← <literal> ⊕ [destination]
 

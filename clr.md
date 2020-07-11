@@ -1,4 +1,4 @@
-## CLR - Clear an operand
+# CLR - Clear an operand
 
 ## Operation
 [destination] ← 0

@@ -1,4 +1,4 @@
-## CMPM - Compare memory with memory
+# CMPM - Compare memory with memory
 
 ## Operation
 [destination] - [source]

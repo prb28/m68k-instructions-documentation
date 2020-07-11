@@ -1,4 +1,4 @@
-## MULS, MULU - Signed multiply, unsigned multiply
+# MULS, MULU - Signed multiply, unsigned multiply
 
 ## Operation
 [destination] ← [destination] * [source]
