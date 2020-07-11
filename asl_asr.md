@@ -1,4 +1,3 @@
-
 # ASL, ASR - Arithmetic shift left/right
 
 ## Operation
@@ -24,17 +23,17 @@ three ways. The count may be a literal, the contents of a data
 register, or the value 1. An immediate (i.e., literal) count permits
 a shift of 1 to 8 places. If the count is in a register, the value is
 modulo 64 (i.e., 0 to 63). If no count is specified, one shift is made
-(i.e., ASL \<ea\> shifts the contents of the word at the effective
+(i.e., `ASL \<ea\>` shifts the contents of the word at the effective
 address one place left).
 The effect of an arithmetic shift left is to shift a zero into the
 least-significant bit position and to shift the most-significant bit
-out into both the X- and the C-bits of the CCR. The overflow bit
-of the CCR is set if a sign change occurs during shifting (i.e., if
+out into both the X- and the C-bits of the *CCR*. The overflow bit
+of the *CCR* is set if a sign change occurs during shifting (i.e., if
 the most-significant bit changes value during shifting).
 The effect of an arithmetic shift right is to shift the least-significant bit into both the X- and C-bits of the CCR. The most-significant bit (i.e., the sign bit) is replicated to preserve the sign of
 the number.
 
-![ASL ASR schema](aslasr.png)
+![ASL ASR schema](asl_asr.png)
 
 ## Application
 ASL multiplies a twoís complement number by 2. ASL is almost
