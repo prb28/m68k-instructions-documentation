@@ -1,11 +1,13 @@
-## SBCD Subtract decimal with extend
+# SBCD - Subtract decimal with extend
 
 ## Operation
-[destination] 10 ← [destination] 10 - [source] 10 - [X]
+[destination]<sub>10</sub> ← [destination]<sub>10</sub> - [source]<sub>10</sub> - [X]
 
 ## Syntax
+```assembly
 SBCD Dy,Dx
 SBCD -(Ay),-(Ax)
+```
 
 ## Attributes
 Size = byte
@@ -26,3 +28,4 @@ Z: Cleared if result is non-zero. Unchanged otherwise. The Z-bit
 can be used to test for zero after a chain of multiple precision
 operations.
 
+*From MOTOROLA M68000 FAMILY Programmer's reference manual. Copyright 1992 by Motorola Inc./NXP. Adapted with permission.*

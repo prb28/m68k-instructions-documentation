@@ -1,10 +1,10 @@
-## RTE Return from exception
+# RTE - Return from exception
 
 ## Operation
-IF [S] = 1 THEN
-[SR] ← [M([SP])]; [SP] ← [SP] + 2
-[PC] ← [M([SP])]; [SP] ← [SP] + 4
-ELSE TRAP
+IF [S] = 1 THEN<br/>
+&nbsp;&nbsp;[SR] ← [M([SP])]; [SP] ← [SP] + 2<br/>
+&nbsp;&nbsp;[PC] ← [M([SP])]; [SP] ← [SP] + 4<br/>
+&nbsp;ELSE TRAP
 
 
 ## Syntax
@@ -30,3 +30,4 @@ processor determines how much to remove from the stack.
 
 The CCR is restored to its pre-exception state.
 
+*From MOTOROLA M68000 FAMILY Programmer's reference manual. Copyright 1992 by Motorola Inc./NXP. Adapted with permission.*
