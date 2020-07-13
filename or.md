@@ -10,7 +10,7 @@ OR Dn,<ea>
 ```
 
 ## Attributes
-Size = byte, word, longword
+`Size`  byte, word, longword
 
 ## Description
 OR the source operand to the destination operand, and store the

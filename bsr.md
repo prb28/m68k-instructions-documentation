@@ -11,7 +11,7 @@ BSR <literal>
 ```
 
 ## Attributes
-Size = byte, word
+`Size` byte, word
 
 ## Description
 The longword address of the instruction immediately following

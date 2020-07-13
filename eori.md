@@ -8,7 +8,7 @@ EORI #<data>,<ea>
 ```
 
 ## Attributes
-Size = byte, word, longword
+`Size` byte, word, longword
 
 ## Description
 EOR the immediate data with the contents of the destination operand. Store the result in the destination operand.
@@ -33,7 +33,7 @@ EOR the immediate data with the contents of the destination operand. Store the r
 EORI #<data>,CCR
 ```
 ## Attributes
-Size = byte
+`Size` byte
 
 ## Description
 EOR the immediate data with the contents of the condition code
@@ -66,7 +66,7 @@ IF [S] = 1<br/>
 EORI #<data>,SR
 ```
 ## Attributes
-Size = word
+`Size` word
 
 ## Description
 EOR (exclusive OR) the immediate data with the contents of the

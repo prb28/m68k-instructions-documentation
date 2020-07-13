@@ -15,7 +15,7 @@ CMPA.L D5,A
 ```
 
 ## Attributes
-Size = word, longword
+`Size` word, longword
 
 ## Description
 Subtract the source operand from the destination address register

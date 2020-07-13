@@ -9,7 +9,7 @@ MOVEQ #<data>,Dn
 ```
 
 ## Attributes
-Size = longword
+`Size`  longword
 
 ## Description
 Move the specified literal to a data register. The literal data is an

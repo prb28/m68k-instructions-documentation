@@ -8,7 +8,7 @@
 CMPI #<data>,<ea>
 ```
 ## Attributes
-Size = byte, word, longword
+`Size` byte, word, longword
 
 
 ## Description

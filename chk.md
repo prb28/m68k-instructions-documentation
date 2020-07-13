@@ -8,7 +8,7 @@ IF [Dn] < 0 OR [Dn] > [\<ea\>] THEN TRAP
 CHK <ea>,Dn
 ```
 ## Attributes
-Size = word
+`Size` word
 
 ## Description
 The contents of the low-order word in the data register specified

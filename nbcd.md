@@ -10,7 +10,7 @@ NBCD <ea>
 
 
 ## Attributes
-Size = byte
+`Size`  byte
 
 ## Description
 The operand addressed as the destination and the extend bit in

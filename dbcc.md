@@ -13,7 +13,7 @@ IF(condition false)<br/>
 `DBcc` Dn,<label>
 ```
 ## Attributes
-Size = word
+`Size` word
 
 ## Description
 The `DBcc` instruction provides an automatic looping facility and

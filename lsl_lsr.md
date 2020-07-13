@@ -14,7 +14,7 @@ LSR <ea>
 ```
 
 ## Attributes
-Size = byte, word, longword
+`Size` byte, word, longword
 
 ## Description
 Logically shift the bits of the operand in the specified direction

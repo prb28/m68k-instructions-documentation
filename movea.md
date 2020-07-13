@@ -9,7 +9,7 @@ MOVEA <ea>,An
 ```
 
 ## Attributes
-Size = word, longword
+`Size` word, longword
 
 ## Description
 Move the contents of the source to the destination location. The

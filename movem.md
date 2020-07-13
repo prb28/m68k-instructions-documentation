@@ -29,7 +29,7 @@ MOVEM.W D0-D5/D7/A0-A6,-(A7)
 ```
 
 ## Attributes
-Size = word, longword
+`Size`  word, longword
 
 ## Description
 The group of registers specified by `<register list>` is copied to

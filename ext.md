@@ -10,7 +10,7 @@ EXT.L Dn
 ```
 
 ## Attributes
-Size = word, longword
+`Size` word, longword
 
 ## Description
 Extend the least-significant byte in a data register to a word, or

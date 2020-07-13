@@ -9,7 +9,7 @@ NEG <ea>
 ```
 
 ## Attributes
-Size = byte, word, longword
+`Size`  byte, word, longword
 
 ## Description
 Subtract the destination operand from 0 and store the result in
