@@ -68,7 +68,7 @@ operands).
 Note that the `MOVEM` instruction has a side effect. An extra
 bus cycle occurs for memory operands, and an operand at one
 address higher than the last register in the list is accessed. This
-extra access is an ëovershootí and has no effect as far as the
+extra access is an 'overshoot' and has no effect as far as the
 programmer is concerned. However, it could cause a problem if
 the overshoot extended beyond the bounds of physical memory.
 Once again, remember that `MOVEM.W` sign-extends words when
