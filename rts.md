@@ -20,3 +20,4 @@ value of the PC is lost. `RTS` is used to terminate a subroutine.
 |--|--|--|--|--|
 |-|-|-|-|-|
 
+*From MOTOROLA M68000 FAMILY Programmer's reference manual. Copyright 1992 by Motorola Inc./NXP. Adapted with permission.*
