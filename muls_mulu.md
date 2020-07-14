@@ -10,7 +10,7 @@ MULU <ea>,Dn
 ```
 
 ## Attributes
-Size = word (the product is a longword)
+`Size`  word (the product is a longword)
 
 ## Description
 Multiply the 16-bit destination operand by the 16-bit source

@@ -9,7 +9,7 @@ SUBQ #<data>,<ea>
 ```
 
 ## Attributes
-Size = byte, word, longword
+`Size`  byte, word, longword
 
 ## Description
 Subtract the immediate data from the destination operand. The

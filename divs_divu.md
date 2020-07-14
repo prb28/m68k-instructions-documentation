@@ -10,7 +10,7 @@ DIVU <ea>,Dn
 ```
 
 ## Attributes
-Size = longword/word = longword result
+`Size` longword/word = longword result
 
 ## Description
 Divide the destination operand by the source operand and store

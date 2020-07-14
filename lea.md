@@ -17,7 +17,7 @@ LEA (Table,PC,D0),A6
 ```
 
 ## Attributes
-Size = longword
+`Size` longword
 
 ## Description
 The effective address is computed and loaded into the specified

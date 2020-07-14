@@ -15,7 +15,7 @@ EXG A7,D5
 ```
 
 ## Attributes
-Size = longword
+`Size` longword
 
 ## Description
 Exchange the contents of two registers. The size of the instruction

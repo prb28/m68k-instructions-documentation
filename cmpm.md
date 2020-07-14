@@ -8,7 +8,7 @@
 CMPM (Ay)+,(Ax)+
 ```
 ## Attributes
-Size = byte, word, longword
+`Size` byte, word, longword
 
 ## Sample syntax
 ```assembly

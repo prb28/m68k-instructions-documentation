@@ -9,7 +9,7 @@ NEGX <ea>
 ```
 
 ## Attributes
-Size = byte, word, longword
+`Size`  byte, word, longword
 
 ## Description
 The operand addressed as the destination and the extend bit are

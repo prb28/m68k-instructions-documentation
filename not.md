@@ -9,7 +9,7 @@ NOT <ea>
 ```
 
 ## Attributes
-Size = byte, word, longword
+`Size`  byte, word, longword
 
 ## Description
 Calculate the logical complement of the destination and store the

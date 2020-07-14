@@ -17,7 +17,7 @@ MOVE Temp1,Temp2
 ```
 
 ## Attributes
-Size = byte, word, longword
+`Size` byte, word, longword
 
 ## Description
 Move the contents of the source to the destination location. The
@@ -53,7 +53,7 @@ MOVE <ea>,CCR
 ```
 
 ## Attributes
-Size = word
+`Size` word
 
 ## Description
 Move the contents of the source operand to the condition code
@@ -87,7 +87,7 @@ MOVE SR,<ea>
 ```
 
 ## Attributes
-Size = word
+`Size` word
 
 ## Description
 Move the contents of the status register to the destination location.
@@ -120,7 +120,7 @@ MOVE <ea>,SR
 ```
 
 ## Attributes
-Size = word
+`Size` word
 
 
 ## Description
@@ -169,7 +169,7 @@ MOVE An,USP
 ```
 
 ## Attributes
-Size = longword
+`Size` longword
 
 ## Description
 Move the contents of the user stack pointer to an address register

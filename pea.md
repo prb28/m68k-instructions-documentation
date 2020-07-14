@@ -9,7 +9,7 @@ PEA <ea>
 ```
 
 ## Attributes
-Size = longword
+`Size`  longword
 
 ## Description
 The longword effective address specified by the instruction is

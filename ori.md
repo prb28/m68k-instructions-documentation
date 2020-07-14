@@ -9,7 +9,7 @@ ORI #<data>,<ea>
 ```
 
 ## Attributes
-Size = byte, word, longword
+`Size`  byte, word, longword
 
 ## Description
 OR the immediate data with the destination operand. Store the
@@ -44,7 +44,7 @@ ORI #<data>,CCR
 ```
 
 ## Attributes
-Size = byte
+`Size`  byte
 
 ## Description
 OR the immediate data with the condition code register (i.e., the
@@ -76,7 +76,7 @@ ORI #<data>,SR
 ```
 
 ## Attributes
-Size = word
+`Size`  word
 
 ## Description
 OR the immediate data to the status register and store the result
