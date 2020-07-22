@@ -12,10 +12,7 @@ ANDI #<data>,<ea>
 `Size` byte, word, longword
 
 ## Description
-*AND* the immediate data to the destination operand. The `ANDI`
-permits a literal operand to be ANDed with a destination other
-than a data register. For example, `ANDI #$FE00,$1234` or
-`ANDI.B #$F0,(A2)+`.
+*AND* the immediate data to the destination operand. The `ANDI` permits a literal operand to be ANDed with a destination other than a data register. For example, `ANDI #$FE00,$1234` or `ANDI.B #$F0,(A2)+`.
 
 ## Condition codes
 |X|N|Z|V|C|
@@ -39,12 +36,10 @@ than a data register. For example, `ANDI #$FE00,$1234` or
 `Size` byte
 
 ## Description
-*AND* the immediate data to the condition code register (i.e., the
-least-significant byte of the status register).
+*AND* the immediate data to the condition code register (i.e., the least-significant byte of the status register).
 
 ## Application
-`ANDI` is used to clear selected bits of the `CCR`. For example,
-`ANDI #$FA,CCR` clears the Z- and C-bits, i.e., XNZVC = X N 0 V 0.
+`ANDI` is used to clear selected bits of the `CCR`. For example, `ANDI #$FA,CCR` clears the Z- and C-bits, i.e., XNZVC = X N 0 V 0.
 
 ## Condition codes
 |X|N|Z|V|C|
@@ -74,15 +69,10 @@ IF [S] = 1
 `Size` word
 
 ## Description
-*AND* the immediate data to the status register and store the
-result in the status register. All bits of the SR are affected.
+*AND* the immediate data to the status register and store the result in the status register. All bits of the SR are affected.
 
 ## Application
-This instruction is used to clear the interrupt mask, the S-bit, and
-the T-bit of the *SR*. `ANDI #<data>,SR` affects both the status byte
-of the *SR* and the *CCR*. For example, `ANDI #$7FFF,SR` clears the
-trace bit of the status register, while `ANDI #$7FFE,SR` clears the
-trace bit and also clears the carry bit of the *CCR*.
+This instruction is used to clear the interrupt mask, the S-bit, and the T-bit of the *SR*. `ANDI #<data>,SR` affects both the status byte of the *SR* and the *CCR*. For example, `ANDI #$7FFF,SR` clears the trace bit of the status register, while `ANDI #$7FFE,SR` clears the trace bit and also clears the carry bit of the *CCR*.
 
 ## Condition codes
 |X|N|Z|V|C|

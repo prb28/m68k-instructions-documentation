@@ -17,16 +17,10 @@ ADDQ #6,D3
 `Size` byte, word, longword
 
 ## Description
-Add the immediate data to the contents of the destination operand.
-The immediate data must be in the range 1 to 8. Word and
-longword operations on address registers do not affect condition
-codes. Note that a word operation on an address register affects
-all bits of the register.
+Add the immediate data to the contents of the destination operand. The immediate data must be in the range 1 to 8. Word and longword operations on address registers do not affect condition codes. Note that a word operation on an address register affects all bits of the register.
 
 ## Application
-`ADDQ` is used to add a small constant to the operand at the effective
-address. Some assemblers permit you to write `ADD` and then choose
-`ADDQ` *automatically* if the constant is in the range 1 to 8.
+`ADDQ` is used to add a small constant to the operand at the effective address. Some assemblers permit you to write `ADD` and then choose `ADDQ` *automatically* if the constant is in the range 1 to 8.
 
 ## Condition codes
 |X|N|Z|V|C|
