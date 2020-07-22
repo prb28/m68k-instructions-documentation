@@ -19,19 +19,19 @@ If the specified logical condition is met, program execution continues at locati
 
 |Mnemonic|Description|Logic|
 |--|--|--|
-|BCC| branch on carry clear|¬C|
+|BCC| branch on carry clear|C̅|
 |BCS|branch on carry set|C|
 |BEQ| branch on equal|Z|
-|BGE|branch on greater than or equal|N.V + ¬N.¬V|
-|BGT| branch on greater than|N.V.¬Z + ¬N.¬V.¬Z|
-|BHI| branch on higher than|¬C.¬Z|
-|BLE| branch on less than or equal|Z + N.¬V + ¬N.V|
+|BGE|branch on greater than or equal|N.V + N̅.V̅|
+|BGT| branch on greater than|N.V.Z̅ + N̅.V̅.Z̅|
+|BHI| branch on higher than|C̅.Z̅|
+|BLE| branch on less than or equal|Z + N.V̅ + N̅.V|
 |BLS| branch on lower than or same|C+Z|
-|BLT| branch on less than|N.¬V + ¬N.V|
+|BLT| branch on less than|N.V̅ + N̅.V|
 |BMI| branch on minus (i.e., negative)|N|
-|BNE| branch on not equal|¬Z|
-|BPL| branch on plus (i.e., positive)|¬N|
-|BVC| branch on overflow clear|¬V|
+|BNE| branch on not equal|Z̅|
+|BPL| branch on plus (i.e., positive)|N̅|
+|BVC| branch on overflow clear|V̅|
 |BVS| branch on overflow set|V|
 
 Note that there are two types of conditional branch instruction: those that branch on an unsigned condition and those that branch on a signed condition. For example, $FF is greater than $10 when the numbers are regarded as unsigned (i.e., 255 is greater than 16). However, if the numbers are signed, $FF is less than $10 (i.e., -1 is less than 16).

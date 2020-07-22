@@ -1,7 +1,7 @@
 # ORI - OR immediate
 
 ## Operation
-[destination] ← <literal> + [destination]
+[destination] ← \<literal\> + [destination]
 
 ## Syntax
 ```assembly
@@ -12,8 +12,7 @@ ORI #<data>,<ea>
 `Size`  byte, word, longword
 
 ## Description
-OR the immediate data with the destination operand. Store the
-result in the destination operand.
+OR the immediate data with the destination operand. Store the result in the destination operand.
 
 ## Condition codes
 |X|N|Z|V|C|
@@ -21,8 +20,7 @@ result in the destination operand.
 |-|*|*|0|0|
 
 ## Application
-`ORI` forms the logical OR of the immediate source with the
-effective address, which may be a memory location. For example,
+`ORI` forms the logical OR of the immediate source with the effective address, which may be a memory location. For example,
 
 ```
 ORI.B #%00000011,(A0)+
@@ -33,7 +31,7 @@ ORI.B #%00000011,(A0)+
 |:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
 |✓||✓|✓|✓|✓|✓|✓|✓||||
 
-## ORI to CCR - Inclusive OR immediate to CCR
+# ORI to CCR - Inclusive OR immediate to CCR
 
 ## Operation
 [CCR] ← \<literal\> + [CCR]
@@ -47,9 +45,7 @@ ORI #<data>,CCR
 `Size`  byte
 
 ## Description
-OR the immediate data with the condition code register (i.e., the
-least-significant byte of the status register). For example, the Z
-flag of the CCR can be set by ORI #$04,CCR.
+OR the immediate data with the condition code register (i.e., the least-significant byte of the status register). For example, the Z flag of the CCR can be set by `ORI #$04,CCR`.
 
 ## Condition codes
 |X|N|Z|V|C|
@@ -62,7 +58,7 @@ Z is set if bit 2 of data = 1; unchanged otherwise</br>
 V is set if bit 1 of data = 1; unchanged otherwise</br>
 C is set if bit 0 of data = 1; unchanged otherwise</br>
 
-## ORI to SR - Inclusive OR immediate to status register
+# ORI to SR - Inclusive OR immediate to status register
 
 ## Operation
 IF [S] = 1<br/>
@@ -79,14 +75,11 @@ ORI #<data>,SR
 `Size`  word
 
 ## Description
-OR the immediate data to the status register and store the result
-in the status register. All bits of the status register are affected.
+OR the immediate data to the status register and store the result in the status register. All bits of the status register are affected.
 
 
 ## Application
-Used to set bits in the SR (i.e., the S, T, and interrupt mask bits).
-For example, `ORI #$8000,SR` sets bit 15 of the SR (i.e., the trace
-bit).
+Used to set bits in the SR (i.e., the S, T, and interrupt mask bits). For example, `ORI #$8000,SR` sets bit 15 of the SR (i.e., the trace bit).
 
 ## Condition codes
 |X|N|Z|V|C|

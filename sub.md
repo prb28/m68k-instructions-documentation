@@ -13,8 +13,7 @@ SUB Dn,<ea>
 `Size` byte, word, longword
 
 ## Description
-Subtract the source operand from the destination operand and
-store the result in the destination location.
+Subtract the source operand from the destination operand and store the result in the destination location.
 
 ## Condition codes
 |X|N|Z|V|C|
