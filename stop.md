@@ -1,10 +1,10 @@
 # STOP - Load status register and stop
 
 ## Operation
-IF [S] = 1 THEN
-[SR] ← <data>
-STOP
-ELSE TRAP
+IF [S] = 1 THEN<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;[SR] ← \<data\><br/>
+&nbsp;&nbsp;&nbsp;&nbsp;STOP<br/>
+&nbsp;&nbsp;ELSE TRAP
 
 ## Syntax
 ```assembly

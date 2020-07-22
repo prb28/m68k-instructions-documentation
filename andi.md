@@ -30,7 +30,9 @@ ANDI #<data>,<ea>
 [CCR] ← \<data\>.[CCR]
 
 ## Syntax
-`ANDI #<data>,CCR`
+```assembly
+ANDI #<data>,CCR
+```
 
 ## Attributes
 `Size` byte
@@ -63,7 +65,9 @@ IF [S] = 1
 ```
 
 ## Syntax
-`ANDI #<data>,SR`
+```assembly
+ANDI #<data>,SR
+```
 
 ## Attributes
 `Size` word

@@ -1,7 +1,7 @@
 # SUBI - Subtract immediate
 
 ## Operation
-[destination] ← [destination] - <literal>
+[destination] ← [destination] - \<literal\>
 
 ## Syntax
 ```assembly

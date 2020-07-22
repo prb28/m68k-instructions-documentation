@@ -1,7 +1,7 @@
 # SUBQ - Subtract quick
 
 ## Operation
-[destination] ← [destination] - <literal>
+[destination] ← [destination] - \<literal\>
 
 ## Syntax
 ```assembly

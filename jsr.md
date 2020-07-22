@@ -13,14 +13,10 @@ JSR <ea>
 Unsized
 
 ## Description
-`JSR` pushes the longword address of the instruction immediately
-following the `JSR` onto the system stack. Program execution then
-continues at the address specified in the instruction.
+`JSR` pushes the longword address of the instruction immediately following the `JSR` onto the system stack. Program execution then continues at the address specified in the instruction.
 
 ## Application
-`JSR (Ai)` calls the procedure pointed at by address register Ai.
-The instruction `JSR (Ai,Dj)` calls the procedure at the location
-[Ai] + [Dj] which permits dynamically computed addresses.
+`JSR (Ai)` calls the procedure pointed at by address register Ai. The instruction `JSR (Ai,Dj)` calls the procedure at the location [Ai] + [Dj] which permits dynamically computed addresses.
 
 ## Condition codes
 |X|N|Z|V|C|

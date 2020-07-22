@@ -36,7 +36,7 @@ ORI.B #%00000011,(A0)+
 ## ORI to CCR - Inclusive OR immediate to CCR
 
 ## Operation
-[CCR] ← <literal> + [CCR]
+[CCR] ← \<literal\> + [CCR]
 
 ## Syntax
 ```assembly
@@ -67,7 +67,7 @@ C is set if bit 0 of data = 1; unchanged otherwise</br>
 ## Operation
 IF [S] = 1<br/>
 &nbsp;&nbsp;THEN<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;[SR] ← <literal> + [SR]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;[SR] ← \<literal\> + [SR]<br/>
 &nbsp;&nbsp;ELSE TRAP
 
 ## Syntax
