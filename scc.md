@@ -43,7 +43,7 @@ the bits at the effective address are set to zeros (i.e., $00).
 |-|-|-|-|-|
 
 ## Destination operand addressing modes
-|Dn|An|(An)|(An)+|-(An)|(d,An)|(d,An,Xi)|ABS.W|ABS.L|(d,PC)|(d,PC,Xn)|imm|
+|Dn|An|(An)|(An)+|&#x2011;(An)|(d,An)|(d,An,Xi)|ABS.W|ABS.L|(d,PC)|(d,PC,Xn)|imm|
 |:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
 |✓||✓|✓|✓|✓|✓|✓|✓||||
 
