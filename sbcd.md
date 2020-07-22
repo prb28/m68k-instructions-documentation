@@ -10,7 +10,7 @@ SBCD -(Ay),-(Ax)
 ```
 
 ## Attributes
-Size = byte
+`Size` byte
 
 ## Description
 Subtract the source operand from the destination operand together

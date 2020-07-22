@@ -16,8 +16,8 @@ NBCD <ea>
 The operand addressed as the destination and the extend bit in
 the CCR are subtracted from zero. The subtraction is performed
 using binary coded decimal (BCD) arithmetic. This instruction
-calculates the tenís complement of the destination if the X-bit is
-clear, and the nineís complement if X = 1. This is a byte-only
+calculates the ten's complement of the destination if the X-bit is
+clear, and the nine's complement if X = 1. This is a byte-only
 operation. Negating a BCD number (with X = 0) has the effect of
 subtracting it from 100<sub>10</sub>.
 

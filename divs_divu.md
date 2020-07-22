@@ -18,7 +18,7 @@ the result in the destination. The destination is a longword and
 the source is a 16-bit value. The result (i.e., destination register) is
 a 32-bit value arranged so that the quotient is the lower-order
 word and the remainder is the upper-order word. `DIVU` performs
-division on unsigned values, and `DIVS` performs division on twoís
+division on unsigned values, and `DIVS` performs division on two's
 complement values. An attempt to divide by zero causes an
 exception. For `DIVS`, the sign of the remainder is always the same
 as the sign of the dividend (unless the remainder is zero).

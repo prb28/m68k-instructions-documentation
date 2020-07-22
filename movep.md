@@ -22,7 +22,7 @@ MOVEP (Input,A6),D5
 The `MOVEP` operation moves data between a data register and a
 byte-oriented memory mapped peripheral. The data is moved
 between the specified data register and *alternate bytes* within the
-peripheralís address space, starting at the location specified and
+peripheral's address space, starting at the location specified and
 incrementing by two. This instruction is designed to be used in
 conjunction with 8-bit peripherals connected to the 68000's 16-bit
 data bus. The high-order byte of the data register is transferred

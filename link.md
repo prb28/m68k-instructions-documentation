@@ -37,7 +37,7 @@ programmers often use A6 as a frame pointer.
 ```
 ## Application
 The LINK and UNLK pair are used to create local workspace on the
-top of a procedureís stack. Consider the code:
+top of a procedure's stack. Consider the code:
 
 ```
 Subrtn LINK A6,#-12 Create a 12-byte workspace

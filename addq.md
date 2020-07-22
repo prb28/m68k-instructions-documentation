@@ -10,7 +10,7 @@ ADDQ #<data>,<ea>
 
 ## Sample syntax
 ```assembly
-ADDQ #6,D
+ADDQ #6,D3
 ```
 
 ## Attributes
@@ -26,7 +26,7 @@ all bits of the register.
 ## Application
 `ADDQ` is used to add a small constant to the operand at the effective
 address. Some assemblers permit you to write `ADD` and then choose
-`ADDQ` automatically if the constant is in the range 1 to 8.
+`ADDQ` *automatically* if the constant is in the range 1 to 8.
 
 ## Condition codes
 |X|N|Z|V|C|

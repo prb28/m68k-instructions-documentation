@@ -14,7 +14,7 @@ ROR <ea>
 ```
 
 ## Attributes
-Size = byte, word, longword
+`Size` byte, word, longword
 
 ## Description
 Rotate the bits of the operand in the direction indicated. The

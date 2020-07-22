@@ -1,8 +1,7 @@
 # BCHG - Test a bit and change
 
 ## Operation
-[Z] ← ¬(\<bit number\> OF [destination])
-
+[Z] ← ¬(\<bit number\> OF [destination])<br/>
 \<bit number\> OF [destination] ← ¬(\<bit number\> OF [destination])
 
 ## Syntax
@@ -37,7 +36,7 @@ operand is changed and the new contents of location 1234<sub>16</sub> are
 ## Condition codes
 |X|N|Z|V|C|
 |--|--|--|--|--|
-|-|*|*|0|0|
+|-|-|*|-|-|
 
 Z: set if the bit tested is zero, cleared otherwise.
 

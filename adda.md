@@ -17,8 +17,8 @@ Add the source operand to the destination address register and
 store the result in the destination address register. The source is
 sign-extended before it is added to the destination. For example,
 if we execute `ADDA.W D3,A4` where A4 = 00000100<sub>16</sub> and
-D3.W = 800216 , the contents of D3 are sign-extended to FFFF8002<sub>16</sub> and
-added to 00000100<sub>16</sub> to give FFFF8102<sub>16</sub> , which is stored in A4.
+D3.W = 8002<sub>16</sub>, the contents of D3 are sign-extended to FFFF8002<sub>16</sub> and
+added to 00000100<sub>16</sub> to give FFFF8102<sub>16</sub>, which is stored in A4.
 
 
 ## Application
@@ -29,6 +29,7 @@ CCR. Note that `ADDA.W D0,A0` is the same as `LEA (A0,D0.W),A0`.
 |X|N|Z|V|C|
 |--|--|--|--|--|
 |-|-|-|-|-|
+
 An `ADDA` operation does not affect the state of the CCR.
 
 ### Source operand addressing modes

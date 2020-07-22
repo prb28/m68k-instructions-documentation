@@ -1,7 +1,7 @@
 # BTST - Test a bit
 
 ## Operation
-[Z] ← <bit number> OF [destination]
+[Z] ← ¬(\<bit number\> OF [destination])
 
 ## Syntax
 ```assembly

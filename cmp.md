@@ -9,7 +9,7 @@ CMP <ea>,Dn
 ```
 ## Sample syntax
 ```assembly
-CMP (Test,A6,D3.W),D
+CMP (Test,A6,D3.W),D2
 ```
 
 ## Attributes
@@ -17,8 +17,7 @@ CMP (Test,A6,D3.W),D
 
 ## Description
 Subtract the source operand from the destination operand and
-set the condition codes accordingly. The destination must be a
-data register. The destination is not modified by this instruction.
+set the condition codes accordingly. The destination must be a data register. The destination is not modified by this instruction.
 
 ## Condition codes
 |X|N|Z|V|C|

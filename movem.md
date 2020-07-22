@@ -34,7 +34,7 @@ MOVEM.W D0-D5/D7/A0-A6,-(A7)
 ## Description
 The group of registers specified by `<register list>` is copied to
 or from consecutive memory locations. The starting location is
-provided by the effective address. Any combination of the 68000ís
+provided by the effective address. Any combination of the 68000's
 sixteen address and data registers can be copied by a single `MOVEM`
 instruction. Note that either a word or a longword can be moved,
 and that a word is sign-extended to a longword when it is moved

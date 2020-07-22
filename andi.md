@@ -17,14 +17,6 @@ permits a literal operand to be ANDed with a destination other
 than a data register. For example, `ANDI #$FE00,$1234` or
 `ANDI.B #$F0,(A2)+`.
 
-## Application
-`AND` is used to mask bits. If we wish to clear bits 3 to 6 of data
-register *D7*, we can execute `AND #%10000111,D7`. Unfortunately,
-the `AND` operation cannot be used with an address register as
-either a source or a destination operand. If you wish to perform a
-logical operation on an address register, you have to copy the
-address to a data register and then perform the operation there.
-
 ## Condition codes
 |X|N|Z|V|C|
 |--|--|--|--|--|
@@ -35,12 +27,10 @@ address to a data register and then perform the operation there.
 |:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
 |✓||✓|✓|✓|✓|✓|✓|✓||||
 
-# ANDI to CCR - AND immediate to condition
-
-## code register
+# ANDI to CCR - AND immediate to condition code register
 
 ## Operation
-[CCR] ← <data>.[CCR]
+[CCR] ← \<data\>.[CCR]
 
 ## Syntax
 `ANDI #<data>,CCR`
@@ -98,6 +88,5 @@ trace bit and also clears the carry bit of the *CCR*.
 |X|N|Z|V|C|
 |--|--|--|--|--|
 |*|*|*|*|*|
-
 
 *From MOTOROLA M68000 FAMILY Programmer's reference manual. Copyright 1992 by Motorola Inc./NXP. Adapted with permission.*

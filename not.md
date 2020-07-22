@@ -15,7 +15,7 @@ NOT <ea>
 Calculate the logical complement of the destination and store the
 result in the destination. The difference between `NOT` and `NEG` is
 that `NOT` performs a bit-by-bit logical complementation, while a
-`NEG` performs a twoís complement arithmetic subtraction. Moreover, `NEG` updates all bits of the CCR, while `NOT` clears the V- and
+`NEG` performs a two's complement arithmetic subtraction. Moreover, `NEG` updates all bits of the CCR, while `NOT` clears the V- and
 C-bits, updates the N- and Z-bits, and doesn't affect the X-bit.
 
 ## Condition codes
