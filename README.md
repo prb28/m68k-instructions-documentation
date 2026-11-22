@@ -771,65 +771,65 @@
 |[AddFont](libs/graphics/AddFont.md)|add a font to the system list|
 |[AddVSprite](libs/graphics/AddVSprite.md)|Add a [VSprite](_00C3.md) to the current gel list.|
 |[AllocRaster](libs/graphics/AllocRaster.md)|Allocate space for a bitplane.|
-|[AndRectRegion](libs/graphics/AndRectRegion.md)|Perform 2d AND operation of rectanglewith region, leaving result in region.|
-|[AndRegionRegion](libs/graphics/AndRegionRegion.md)|Perform 2d AND operation of one regionwith second region, leaving result in second region.|
+|[AndRectRegion](libs/graphics/AndRectRegion.md)|Perform 2d AND operation of rectangle with region, leaving result in region.|
+|[AndRegionRegion](libs/graphics/AndRegionRegion.md)|Perform 2d AND operation of one region with second region, leaving result in second region.|
 |[Animate](libs/graphics/Animate.md)|Processes every [AnimOb](_00C3.md) in the current animation list.|
 |[AreaCircle](libs/graphics/AreaCircle.md)|add a circle to areainfo list for areafill.|
 |[AreaDraw](libs/graphics/AreaDraw.md)|Add a point to a list of end points for areafill.|
-|[AreaEllipse](libs/graphics/AreaEllipse.md)|add a ellipse to areainfo list for areafill.|
+|[AreaEllipse](libs/graphics/AreaEllipse.md)|add an ellipse to areainfo list for areafill.|
 |[AreaEnd](libs/graphics/AreaEnd.md)|[Process](_0078.md) table of vectors and ellipses and produce areafill.|
-|[AreaMove](libs/graphics/AreaMove.md)|Define a new starting point for a newshape in the vector list.|
+|[AreaMove](libs/graphics/AreaMove.md)|Define a new starting point for a new shape in the vector list.|
 |[AskFont](libs/graphics/AskFont.md)|get the text attributes of the current font|
 |[AskSoftStyle](libs/graphics/AskSoftStyle.md)|Get the soft style bits of the current font.|
-|[AttemptLockLayerRom](libs/graphics/AttemptLockLayerRom.md)|Attempt to Lock [Layer](_00A1.md) structureby rom(gfx lib) code|
+|[AttemptLockLayerRom](libs/graphics/AttemptLockLayerRom.md)|Attempt to Lock [Layer](_00A1.md) structure by rom(gfx lib) code|
 |[BitMapScale](libs/graphics/BitMapScale.md)|Perform raster scaling on a bit map. (V36)|
 |[BltBitMap](libs/graphics/BltBitMap.md)|Move a rectangular region of bits in a [BitMap](_00A6.md).|
 |[BltBitMapRastPort](libs/graphics/BltBitMapRastPort.md)|Blit from source bitmap to destination rastport.|
 |[BltClear](libs/graphics/BltClear.md)|BltClear - Clear a block of memory words to zero.|
-|[BltMaskBitMapRastPort](libs/graphics/BltMaskBitMapRastPort.md)|blit from source bitmap to destinationrastport with masking of source image.|
-|[BltPattern](libs/graphics/BltPattern.md)|Using standard drawing rules for areafill,blit through a mask.|
+|[BltMaskBitMapRastPort](libs/graphics/BltMaskBitMapRastPort.md)|blit from source bitmap to destination rastport with masking of source image.|
+|[BltPattern](libs/graphics/BltPattern.md)|Using standard drawing rules for areafill, blit through a mask.|
 |[BltTemplate](libs/graphics/BltTemplate.md)|Cookie cut a shape in a rectangle to the [RastPort](_00AF.md).|
-|[CBump](libs/graphics/CBump.md)|increment user copper list pointer (bump to next positionin list).|
+|[CBump](libs/graphics/CBump.md)|increment user copper list pointer (bump to next position in list).|
 |[CEND](libs/graphics/CEND.md)|Terminate user copper list.|
 |[ChangeSprite](libs/graphics/ChangeSprite.md)|Change the sprite image pointer.|
-|[CINIT](libs/graphics/CINIT.md)|Initialize user copperlist to accept intermediateuser copper instructions.|
+|[CINIT](libs/graphics/CINIT.md)|Initialize user copperlist to accept intermediate user copper instructions.|
 |[ClearEOL](libs/graphics/ClearEOL.md)|Clear from current position to end of line.|
-|[ClearRectRegion](libs/graphics/ClearRectRegion.md)|Perform 2d CLEAR operation of rectanglewith region, leaving result in region.|
+|[ClearRectRegion](libs/graphics/ClearRectRegion.md)|Perform 2d CLEAR operation of rectangle with region, leaving result in region.|
 |[ClearRegion](libs/graphics/ClearRegion.md)|Remove all rectangles from region.|
 |[ClearScreen](libs/graphics/ClearScreen.md)|Clear from current position to end of [RastPort](_00AF.md).|
 |[ClipBlit](libs/graphics/ClipBlit.md)|Calls [BltBitMap](BltBitMap.md) after accounting for windows|
 |[CloseFont](libs/graphics/CloseFont.md)|Release a pointer to a system font.|
 |[CloseMonitor](libs/graphics/CloseMonitor.md)|close a [MonitorSpec](_00A7.md) (V36)|
 |[CMOVE](libs/graphics/CMOVE.md)|append copper move instruction to user copper list.|
-|[CopySBitMap](libs/graphics/CopySBitMap.md)|Syncronize [Layer](_00A1.md) window with contents ofSuper [BitMap](_00A6.md)|
+|[CopySBitMap](libs/graphics/CopySBitMap.md)|Synchronize [Layer](_00A1.md) window with contents ofSuper [BitMap](_00A6.md)|
 |[CWAIT](libs/graphics/CWAIT.md)|Append copper wait instruction to user copper list.|
 |[DisownBlitter](libs/graphics/DisownBlitter.md)|DisownBlitter - return blitter to free state.|
-|[DisposeRegion](libs/graphics/DisposeRegion.md)|Return all space for this region to freememory pool.|
+|[DisposeRegion](libs/graphics/DisposeRegion.md)|Return all space for this region to free memory pool.|
 |[DoCollision](libs/graphics/DoCollision.md)|Test every gel in gel list for collisions.|
-|[Draw](libs/graphics/Draw.md)|Draw a line between the current pen positionand the new x,y position.|
-|[DrawEllipse](libs/graphics/DrawEllipse.md)|Draw an ellipse centered at cx,cy with verticaland horizontal radii of a,b respectively.|
+|[Draw](libs/graphics/Draw.md)|Draw a line between the current pen position and the new x,y position.|
+|[DrawEllipse](libs/graphics/DrawEllipse.md)|Draw an ellipse centered at cx,cy with vertical and horizontal radii of a,b respectively.|
 |[DrawGList](libs/graphics/DrawGList.md)|[Process](_0078.md) the gel list, queueing VSprites, drawing Bobs.|
-|[EraseRect](libs/graphics/EraseRect.md)|Fill a defined rectangular area using the currentBackFill hook. (V36)|
+|[EraseRect](libs/graphics/EraseRect.md)|Fill a defined rectangular area using the current BackFill hook. (V36)|
 |[ExtendFont](libs/graphics/ExtendFont.md)|ensure tf_Extension has been built for a font (V36)|
 |[FindDisplayInfo](libs/graphics/FindDisplayInfo.md)|search for a record identified by a specific key(V36)|
 |[Flood](libs/graphics/Flood.md)|Flood rastport like areafill.|
 |[FontExtent](libs/graphics/FontExtent.md)|get the font attributes of the current font (V36)|
-|[FreeColorMap](libs/graphics/FreeColorMap.md)|Free the [ColorMap](_00B8.md) structure and return memoryto free memory pool.|
+|[FreeColorMap](libs/graphics/FreeColorMap.md)|Free the [ColorMap](_00B8.md) structure and return memory to free memory pool.|
 |[FreeCopList](libs/graphics/FreeCopList.md)|deallocate intermediate copper list|
 |[FreeCprList](libs/graphics/FreeCprList.md)|deallocate hardware copper list|
 |[FreeGBuffers](libs/graphics/FreeGBuffers.md)|Deallocate memory obtained by GetGBufers.|
 |[FreeRaster](libs/graphics/FreeRaster.md)|Release an allocated area to the system free memory pool.|
-|[FreeSprite](libs/graphics/FreeSprite.md)|Return sprite for use by others and virtualsprite machine.|
-|[FreeVPortCopLists](libs/graphics/FreeVPortCopLists.md)|deallocate all intermediate copper lists andtheir headers from a viewport|
+|[FreeSprite](libs/graphics/FreeSprite.md)|Return sprite for use by others and virtual sprite machine.|
+|[FreeVPortCopLists](libs/graphics/FreeVPortCopLists.md)|deallocate all intermediate copper lists and their headers from a viewport|
 |[GetColorMap](libs/graphics/GetColorMap.md)|allocate and initialize Colormap|
 |[GetDisplayInfoData](libs/graphics/GetDisplayInfoData.md)|query [DisplayInfo](_00BD.md) Record parameters (V36)|
 |[GetGBuffers](libs/graphics/GetGBuffers.md)|Attempt to allocate ALL buffers of an entire [AnimOb](_00C3.md).|
 |[GetRGB4](libs/graphics/GetRGB4.md)|Inquire value of entry in [ColorMap](_00B8.md).|
-|[GetSprite](libs/graphics/GetSprite.md)|Attempt to get a sprite for the simple spritemanager.|
+|[GetSprite](libs/graphics/GetSprite.md)|Attempt to get a sprite for the simple sprite manager.|
 |[GetVPModeID](libs/graphics/GetVPModeID.md)|get the 32 bit DisplayID from a [ViewPort](_00B8.md). (V36)|
 |[GfxAssociate](libs/graphics/GfxAssociate.md)|associate a graphics extended node with a given pointer(V36)|
 |[GfxFree](libs/graphics/GfxFree.md)|free a graphics extended data structure (V36)|
-|[GfxLookUP](libs/graphics/GfxLookUP.md)|find a graphics extended node associated with agiven pointer (V36)|
+|[GfxLookUP](libs/graphics/GfxLookUP.md)|find a graphics extended node associated with a given pointer (V36)|
 |[GfxNew](libs/graphics/GfxNew.md)|allocate a graphics extended data structure (V36)|
 |[InitArea](libs/graphics/InitArea.md)|Initialize vector collection matrix|
 |[InitBitMap](libs/graphics/InitBitMap.md)|Initialize bit map structure with input values.|
@@ -837,11 +837,11 @@
 |[InitGMasks](libs/graphics/InitGMasks.md)|Initialize all of the masks of an [AnimOb](_00C3.md).|
 |[InitMasks](libs/graphics/InitMasks.md)|Initialize the BorderLine and CollMask masks of a [VSprite](_00C3.md).|
 |[InitRastPort](libs/graphics/InitRastPort.md)|Initialize raster port structure|
-|[InitTmpRas](libs/graphics/InitTmpRas.md)|Initialize area of local memory for usage byareafill, floodfill, text.|
+|[InitTmpRas](libs/graphics/InitTmpRas.md)|Initialize area of local memory for usage by areafill, floodfill, text.|
 |[InitView](libs/graphics/InitView.md)|InitView - Initialize [View](_00B8.md) structure.|
 |[InitVPort](libs/graphics/InitVPort.md)|InitVPort - Initialize [ViewPort](_00B8.md) structure.|
 |[LoadRGB4](libs/graphics/LoadRGB4.md)|Load RGB color values from table.|
-|[LoadView](libs/graphics/LoadView.md)|Use a (possibly freshly created) coprocessor instructionlist to create the current display.|
+|[LoadView](libs/graphics/LoadView.md)|Use a (possibly freshly created) coprocessor instruction list to create the current display.|
 |[LockLayerRom](libs/graphics/LockLayerRom.md)|Lock [Layer](_00A1.md) structure by rom(gfx lib) code.|
 |[MakeVPort](libs/graphics/MakeVPort.md)|generate display copper list for a viewport.|
 |[ModeNotAvailable](libs/graphics/ModeNotAvailable.md)|check to see if a DisplayID isn't available. (V36)|
@@ -852,36 +852,36 @@
 |[NextDisplayInfo](libs/graphics/NextDisplayInfo.md)|iterate current displayinfo identifiers (V36)|
 |[OpenFont](libs/graphics/OpenFont.md)|Get a pointer to a system font.|
 |[OpenMonitor](libs/graphics/OpenMonitor.md)|open a named [MonitorSpec](_00A7.md) (V36)|
-|[OrRectRegion](libs/graphics/OrRectRegion.md)|Perform 2d OR operation of rectanglewith region, leaving result in region.|
-|[OrRegionRegion](libs/graphics/OrRegionRegion.md)|Perform 2d OR operation of one regionwith second region, leaving result in second region|
+|[OrRectRegion](libs/graphics/OrRectRegion.md)|Perform 2d OR operation of rectangle with region, leaving result in region.|
+|[OrRegionRegion](libs/graphics/OrRegionRegion.md)|Perform 2d OR operation of one region with second region, leaving result in second region|
 |[OwnBlitter](libs/graphics/OwnBlitter.md)|get the blitter for private usage|
 |[PolyDraw](libs/graphics/PolyDraw.md)|Draw lines from table of (x,y) values.|
 |[QBlit](libs/graphics/QBlit.md)|Queue up a request for blitter usage|
 |[QBSBlit](libs/graphics/QBSBlit.md)|Synchronize the blitter request with the video beam.|
-|[ReadPixel](libs/graphics/ReadPixel.md)|read the pen number value of the pixel at aspecified x,y location within a certain [RastPort](_00AF.md).|
-|[ReadPixelArray8](libs/graphics/ReadPixelArray8.md)|read the pen number value of a rectangular arrayof pixels starting at a specified x,y location and continuingthrough to another x,y location within a certain [RastPort](_00AF.md). (V36)|
-|[ReadPixelLine8](libs/graphics/ReadPixelLine8.md)|read the pen number value of a horizontal lineof pixels starting at a specified x,y location and continuingright for count pixels. (V36)|
+|[ReadPixel](libs/graphics/ReadPixel.md)|read the pen number value of the pixel at a specified x,y location within a certain [RastPort](_00AF.md).|
+|[ReadPixelArray8](libs/graphics/ReadPixelArray8.md)|read the pen number value of a rectangular array of pixels starting at a specified x,y location and continuing through to another x,y location within a certain [RastPort](_00AF.md). (V36)|
+|[ReadPixelLine8](libs/graphics/ReadPixelLine8.md)|read the pen number value of a horizontal line of pixels starting at a specified x,y location and continuing right for count pixels. (V36)|
 |[RectFill](libs/graphics/RectFill.md)|Fill a rectangular region in a [RastPort](_00AF.md).|
 |[RemBob](libs/graphics/RemBob.md)|Macro to remove a [Bob](_00C3.md) from the gel list.|
 |[RemFont](libs/graphics/RemFont.md)|Remove a font from the system list.|
 |[RemIBob](libs/graphics/RemIBob.md)|Immediately remove a [Bob](_00C3.md) from the gel list and the [RastPort](_00AF.md).|
 |[RemVSprite](libs/graphics/RemVSprite.md)|Remove a [VSprite](_00C3.md) from the current gel list.|
 |[ScalerDiv](libs/graphics/ScalerDiv.md)|Get the scaling result that [BitMapScale](BitMapScale.md) would. (V36)|
-|[ScrollRaster](libs/graphics/ScrollRaster.md)|Push bits in rectangle in raster around bydx,dy towards 0,0 inside rectangle.|
-|[ScrollVPort](libs/graphics/ScrollVPort.md)|Reinterpret RasInfo information in [ViewPort](_00B8.md) to reflectthe current Offset values.|
+|[ScrollRaster](libs/graphics/ScrollRaster.md)|Push bits in rectangle in raster around by dx,dy towards 0,0 inside rectangle.|
+|[ScrollVPort](libs/graphics/ScrollVPort.md)|Reinterpret RasInfo information in [ViewPort](_00B8.md) to reflect the current Offset values.|
 |[SetAPen](libs/graphics/SetAPen.md)|Set the primary pen for a [RastPort](_00AF.md).|
 |[SetBPen](libs/graphics/SetBPen.md)|Set secondary pen for a [RastPort](_00AF.md)|
 |[SetCollision](libs/graphics/SetCollision.md)|Set a pointer to a user collision routine.|
 |[SetDrMd](libs/graphics/SetDrMd.md)|Set drawing mode for a [RastPort](_00AF.md)|
 |[SetFont](libs/graphics/SetFont.md)|Set the text font and attributes in a [RastPort](_00AF.md).|
-|[SetOPen](libs/graphics/SetOPen.md)|Change the Area OutLine pen and turn on Outlinemode for areafills.|
+|[SetOPen](libs/graphics/SetOPen.md)|Change the Area OutLine pen and turn on Outline mode for areafills.|
 |[SetRast](libs/graphics/SetRast.md)|SetRast - Set an entire drawing area to a specified color.|
 |[SetRGB4](libs/graphics/SetRGB4.md)|Set one color register for this viewport.|
 |[SetRGB4CM](libs/graphics/SetRGB4CM.md)|Set one color register for this [ColorMap](_00B8.md).|
 |[SetSoftStyle](libs/graphics/SetSoftStyle.md)|Set the soft style of the current font.|
 |[SortGList](libs/graphics/SortGList.md)|Sort the current gel list, ordering its y,x coordinates.|
 |[StripFont](libs/graphics/StripFont.md)|remove the tf_Extension from a font (V36)|
-|[SyncSBitMap](libs/graphics/SyncSBitMap.md)|Syncronize Super [BitMap](_00A6.md) with whatever isin the standard [Layer](_00A1.md) bounds.|
+|[SyncSBitMap](libs/graphics/SyncSBitMap.md)|Synchronize Super [BitMap](_00A6.md) with whatever is in the standard [Layer](_00A1.md) bounds.|
 |[Text](libs/graphics/Text.md)|Write text characters (no formatting).|
 |[TextExtent](libs/graphics/TextExtent.md)|Determine raster extent of text data. (V36)|
 |[TextFit](libs/graphics/TextFit.md)|TextFit - count characters that will fit in a given extent (V36)|
@@ -889,15 +889,15 @@
 |[UnlockLayerRom](libs/graphics/UnlockLayerRom.md)|Unlock [Layer](_00A1.md) structure by rom(gfx lib) code.|
 |[VBeamPos](libs/graphics/VBeamPos.md)|Get vertical beam position at this instant.|
 |[VideoControl](libs/graphics/VideoControl.md)|Modify the operation of a ViewPort's [ColorMap](_00B8.md) (V36)|
-|[WaitBlit](libs/graphics/WaitBlit.md)|Wait for the blitter to be finished before proceedingwith anything else.|
-|[WaitBOVP](libs/graphics/WaitBOVP.md)|Wait till vertical beam reached bottom ofthis viewport.|
+|[WaitBlit](libs/graphics/WaitBlit.md)|Wait for the blitter to be finished before proceeding with anything else.|
+|[WaitBOVP](libs/graphics/WaitBOVP.md)|Wait till vertical beam reached bottom of this viewport.|
 |[WaitTOF](libs/graphics/WaitTOF.md)|Wait for the top of the next video frame.|
 |[WeighTAMatch](libs/graphics/WeighTAMatch.md)|Get a measure of how well two fonts match. (V36)|
-|[WritePixel](libs/graphics/WritePixel.md)|Change the pen num of one specific pixel in aspecified [RastPort](_00AF.md).|
-|[WritePixelArray8](libs/graphics/WritePixelArray8.md)|write the pen number value of a rectangular arrayof pixels starting at a specified x,y location and continuingthrough to another x,y location within a certain [RastPort](_00AF.md). (V36)|
-|[WritePixelLine8](libs/graphics/WritePixelLine8.md)|write the pen number value of a horizontal lineof pixels starting at a specified x,y location and continuingright for count pixels. (V36)|
-|[XorRectRegion](libs/graphics/XorRectRegion.md)|Perform 2d XOR operation of rectanglewith region, leaving result in region|
-|[XorRegionRegion](libs/graphics/XorRegionRegion.md)|Perform 2d XOR operation of one regionwith second region, leaving result in second region|
+|[WritePixel](libs/graphics/WritePixel.md)|Change the pen num of one specific pixel in a specified [RastPort](_00AF.md).|
+|[WritePixelArray8](libs/graphics/WritePixelArray8.md)|write the pen number value of a rectangular array of pixels starting at a specified x,y location and continuingthrough to another x,y location within a certain [RastPort](_00AF.md). (V36)|
+|[WritePixelLine8](libs/graphics/WritePixelLine8.md)|write the pen number value of a horizontal line of pixels starting at a specified x,y location and continuing right for count pixels. (V36)|
+|[XorRectRegion](libs/graphics/XorRectRegion.md)|Perform 2d XOR operation of rectangle with region, leaving result in region|
+|[XorRegionRegion](libs/graphics/XorRegionRegion.md)|Perform 2d XOR operation of one region with second region, leaving result in second region|
 
 ### intuition
 
@@ -927,7 +927,7 @@
 |[DoubleClick](libs/intuition/DoubleClick.md)|Test two time values for double-click timing.|
 |[DrawBorder](libs/intuition/DrawBorder.md)|Draw the specified [Border](_00D4.md) structure into a [RastPort](_00AF.md).|
 |[DrawImage](libs/intuition/DrawImage.md)|Draw the specified [Image](_00D4.md) structure into a [RastPort](_00AF.md).|
-|[DrawImageState](libs/intuition/DrawImageState.md)|Draw an (extended) Intuition [Image](_00D4.md) withspecial visual state. (V36)|
+|[DrawImageState](libs/intuition/DrawImageState.md)|Draw an (extended) Intuition [Image](_00D4.md) with special visual state. (V36)|
 |[EasyRequestArgs](libs/intuition/EasyRequestArgs.md)|Easy alternative to [AutoRequest](AutoRequest.md). (V36)EasyRequest -- Varargs stub for EasyRequestArgs(). (V36)|
 |[EndRefresh](libs/intuition/EndRefresh.md)|End the optimized refresh state of the window.|
 |[EndRequest](libs/intuition/EndRequest.md)|Remove a currently active requester.|
@@ -1012,13 +1012,13 @@
 |[WindowLimits](libs/intuition/WindowLimits.md)|Set the minimum and maximum limits of a window.|
 |[WindowToBack](libs/intuition/WindowToBack.md)|Ask Intuition to send a window behind others.|
 |[WindowToFront](libs/intuition/WindowToFront.md)|Ask Intuition to bring a window to the front.|
-|[ZipWindow](libs/intuition/ZipWindow.md)|Change window to &#034;alternate&#034; position anddimensions. (V36)|
+|[ZipWindow](libs/intuition/ZipWindow.md)|Change window to &#034;alternate&#034; position and dimensions. (V36)|
 
 Source: [Amiga Developer Docs from elowar](http://amigadev.elowar.com/)
 
 ## Licenses
 
-The amiga libraries ara part of development tools of Commodore Amiga Incorporated licensed by [Cloanto Coporation](https://cloanto.com)
+The Amiga libraries are part of the development tools of Commodore Amiga Incorporated licensed by [Cloanto Corporation](https://cloanto.com)
 These files are made available here free of charge for learning purposes and without the intention of doing any harm.
 Please contact the extension developer to discuss any issues.
 
