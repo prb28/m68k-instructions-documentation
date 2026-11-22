@@ -561,7 +561,7 @@
 |[GetCurrentDirName](libs/dos/GetCurrentDirName.md)|returns the current directory name (V36)|
 |[GetDeviceProc](libs/dos/GetDeviceProc.md)|Finds a handler to send a message to (V36)|
 |[GetFileSysTask](libs/dos/GetFileSysTask.md)|Returns the default filesystem for the process (V36)|
-|[GetProgramDir](libs/dos/GetProgramDir.md)|Returns a lock on the directory the program was loadedfrom (V36)|
+|[GetProgramDir](libs/dos/GetProgramDir.md)|Returns a lock on the directory the program was loaded from (V36)|
 |[GetProgramName](libs/dos/GetProgramName.md)|Returns the current program name (V36)|
 |[GetPrompt](libs/dos/GetPrompt.md)|Returns the prompt for the current process (V36)|
 |[GetVar](libs/dos/GetVar.md)|Returns the value of a local or global variable (V36)|
@@ -569,7 +569,7 @@
 |[Inhibit](libs/dos/Inhibit.md)|Inhibits access to a filesystem (V36)|
 |[Input](libs/dos/Input.md)|Identify the program's initial input file handle|
 |[InternalLoadSeg](libs/dos/InternalLoadSeg.md)|Low-level load routine (V36)|
-|[InternalUnLoadSeg](libs/dos/InternalUnLoadSeg.md)|Unloads a seglist loaded with [InternalLoadSeg](InternalLoadSeg.md)(V36)|
+|[InternalUnLoadSeg](libs/dos/InternalUnLoadSeg.md)|Unloads a seglist loaded with [InternalLoadSeg](InternalLoadSeg.md) (V36)|
 |[IoErr](libs/dos/IoErr.md)|Return extra information from the system|
 |[IsFileSystem](libs/dos/IsFileSystem.md)|returns whether a Dos handler is a filesystem (V36)|
 |[IsInteractive](libs/dos/IsInteractive.md)|Discover whether a file is &#034;interactive&#034;|
@@ -596,8 +596,8 @@
 |[ParentDir](libs/dos/ParentDir.md)|Obtain the parent of a directory or file|
 |[ParentOfFH](libs/dos/ParentOfFH.md)|returns a lock on the parent directory of a file (V36)|
 |[ParsePattern](libs/dos/ParsePattern.md)|Create a tokenized string for [MatchPattern](MatchPattern.md) (V36)|
-|[ParsePatternNoCase](libs/dos/ParsePatternNoCase.md)|Create a tokenized string for[MatchPatternNoCase](MatchPatternNoCase.md) (V37)|
-|[PathPart](libs/dos/PathPart.md)|Returns a pointer to the end of the next-to-last (V36)component of a path.|
+|[ParsePatternNoCase](libs/dos/ParsePatternNoCase.md)|Create a tokenized string for [MatchPatternNoCase](MatchPatternNoCase.md) (V37)|
+|[PathPart](libs/dos/PathPart.md)|Returns a pointer to the end of the next-to-last (V36) component of a path.|
 |[PrintFault](libs/dos/PrintFault.md)|Returns the text associated with a DOS error code (V36)|
 |[PutStr](libs/dos/PutStr.md)|Writes a string the the default output (buffered) (V36)|
 |[Read](libs/dos/Read.md)|Read bytes of data from a file|
@@ -673,14 +673,14 @@
 |[AllocMem](libs/exec/AllocMem.md)|allocate memory given certain requirements|
 |[AllocSignal](libs/exec/AllocSignal.md)|allocate a signal bit|
 |[AllocTrap](libs/exec/AllocTrap.md)|allocate a processor trap vector|
-|[AllocVec](libs/exec/AllocVec.md)|allocate memory and keep track of the size  (V36)|
+|[AllocVec](libs/exec/AllocVec.md)|allocate memory and keep track of the size (V36)|
 |[AttemptSemaphore](libs/exec/AttemptSemaphore.md)|try to obtain without blocking|
 |[AvailMem](libs/exec/AvailMem.md)|memory available given certain requirements|
 |[CacheClearE](libs/exec/CacheClearE.md)|CacheClearE - Cache clearing with extended control (V37)|
 |[CacheClearU](libs/exec/CacheClearU.md)|CacheClearU - User callable simple cache clearing (V37)|
 |[CacheControl](libs/exec/CacheControl.md)|CacheControl - Instruction &#038; data cache control|
-|[CachePostDMA](libs/exec/CachePostDMA.md)|CachePostDMA - Take actions after to hardware DMA  (V37)|
-|[CachePreDMA](libs/exec/CachePreDMA.md)|CachePreDMA - Take actions prior to hardware DMA  (V37)|
+|[CachePostDMA](libs/exec/CachePostDMA.md)|CachePostDMA - Take actions after to hardware DMA (V37)|
+|[CachePreDMA](libs/exec/CachePreDMA.md)|CachePreDMA - Take actions prior to hardware DMA (V37)|
 |[Cause](libs/exec/Cause.md)|cause a software interrupt|
 |[CheckIO](libs/exec/CheckIO.md)|get the status of an [IORequest](_0094.md)|
 |[CloseDevice](libs/exec/CloseDevice.md)|conclude access to a device|
@@ -688,12 +688,12 @@
 |[ColdReboot](libs/exec/ColdReboot.md)|ColdReboot - reboot the Amiga (V36)|
 |[CopyMem](libs/exec/CopyMem.md)|CopyMem - general purpose memory copy function|
 |[CopyMemQuick](libs/exec/CopyMemQuick.md)|CopyMemQuick - optimized memory copy function|
-|[CreateIORequest](libs/exec/CreateIORequest.md)|create an [IORequest](_0094.md) structure  (V36)|
-|[CreateMsgPort](libs/exec/CreateMsgPort.md)|CreateMsgPort - Allocate and initialize a new message port  (V36)|
+|[CreateIORequest](libs/exec/CreateIORequest.md)|create an [IORequest](_0094.md) structure (V36)|
+|[CreateMsgPort](libs/exec/CreateMsgPort.md)|CreateMsgPort - Allocate and initialize a new message port (V36)|
 |[Deallocate](libs/exec/Deallocate.md)|deallocate a block of memory|
 |[Debug](libs/exec/Debug.md)|run the system debugger|
-|[DeleteIORequest](libs/exec/DeleteIORequest.md)|DeleteIORequest() - Free a request made by [CreateIORequest](CreateIORequest.md)  (V36)|
-|[DeleteMsgPort](libs/exec/DeleteMsgPort.md)|DeleteMsgPort - Free a message port created by [CreateMsgPort](CreateMsgPort.md)  (V36)|
+|[DeleteIORequest](libs/exec/DeleteIORequest.md)|DeleteIORequest() - Free a request made by [CreateIORequest](CreateIORequest.md) (V36)|
+|[DeleteMsgPort](libs/exec/DeleteMsgPort.md)|DeleteMsgPort - Free a message port created by [CreateMsgPort](CreateMsgPort.md) (V36)|
 |[Disable](libs/exec/Disable.md)|disable interrupt processing.|
 |[DoIO](libs/exec/DoIO.md)|perform an I/O command and wait for completion|
 |[Enable](libs/exec/Enable.md)|permit system interrupts to resume.|
@@ -708,7 +708,7 @@
 |[FreeMem](libs/exec/FreeMem.md)|deallocate with knowledge|
 |[FreeSignal](libs/exec/FreeSignal.md)|free a signal bit|
 |[FreeTrap](libs/exec/FreeTrap.md)|free a processor trap|
-|[FreeVec](libs/exec/FreeVec.md)|return [AllocVec](AllocVec.md) memory to the system  (V36)|
+|[FreeVec](libs/exec/FreeVec.md)|return [AllocVec](AllocVec.md) memory to the system (V36)|
 |[GetCC](libs/exec/GetCC.md)|get condition codes in a 68010 compatible way.|
 |[GetMsg](libs/exec/GetMsg.md)|get next message from a message port|
 |[InitCode](libs/exec/InitCode.md)|InitCode - initialize resident code modules (internal function)|
@@ -750,7 +750,7 @@
 |[SetSR](libs/exec/SetSR.md)|get and/or set processor status register|
 |[SetTaskPri](libs/exec/SetTaskPri.md)|get and set the priority of a task|
 |[Signal](libs/exec/Signal.md)|signal a task|
-|[StackSwap](libs/exec/StackSwap.md)|StackSwap - EXEC supported method of replacing task's stack      (V37)|
+|[StackSwap](libs/exec/StackSwap.md)|StackSwap - EXEC supported method of replacing task's stack (V37)|
 |[SumKickData](libs/exec/SumKickData.md)|compute the checksum for the Kickstart delta list|
 |[SumLibrary](libs/exec/SumLibrary.md)|compute and check the checksum on a library|
 |[SuperState](libs/exec/SuperState.md)|enter supervisor state with user stack|
@@ -811,7 +811,7 @@
 |[DrawGList](libs/graphics/DrawGList.md)|[Process](_0078.md) the gel list, queueing VSprites, drawing Bobs.|
 |[EraseRect](libs/graphics/EraseRect.md)|Fill a defined rectangular area using the current BackFill hook. (V36)|
 |[ExtendFont](libs/graphics/ExtendFont.md)|ensure tf_Extension has been built for a font (V36)|
-|[FindDisplayInfo](libs/graphics/FindDisplayInfo.md)|search for a record identified by a specific key(V36)|
+|[FindDisplayInfo](libs/graphics/FindDisplayInfo.md)|search for a record identified by a specific key (V36)|
 |[Flood](libs/graphics/Flood.md)|Flood rastport like areafill.|
 |[FontExtent](libs/graphics/FontExtent.md)|get the font attributes of the current font (V36)|
 |[FreeColorMap](libs/graphics/FreeColorMap.md)|Free the [ColorMap](_00B8.md) structure and return memory to free memory pool.|
@@ -827,7 +827,7 @@
 |[GetRGB4](libs/graphics/GetRGB4.md)|Inquire value of entry in [ColorMap](_00B8.md).|
 |[GetSprite](libs/graphics/GetSprite.md)|Attempt to get a sprite for the simple sprite manager.|
 |[GetVPModeID](libs/graphics/GetVPModeID.md)|get the 32 bit DisplayID from a [ViewPort](_00B8.md). (V36)|
-|[GfxAssociate](libs/graphics/GfxAssociate.md)|associate a graphics extended node with a given pointer(V36)|
+|[GfxAssociate](libs/graphics/GfxAssociate.md)|associate a graphics extended node with a given pointer (V36)|
 |[GfxFree](libs/graphics/GfxFree.md)|free a graphics extended data structure (V36)|
 |[GfxLookUP](libs/graphics/GfxLookUP.md)|find a graphics extended node associated with a given pointer (V36)|
 |[GfxNew](libs/graphics/GfxNew.md)|allocate a graphics extended data structure (V36)|
@@ -911,7 +911,7 @@
 |[AllocRemember](libs/intuition/AllocRemember.md)|[AllocMem](../exec/AllocMem.md) with tracking to make freeing easy.|
 |[AutoRequest](libs/intuition/AutoRequest.md)|Automatically build and get response from a requester.|
 |[BeginRefresh](libs/intuition/BeginRefresh.md)|Sets up a window for optimized refreshing.|
-|[BuildEasyRequestArgs](libs/intuition/BuildEasyRequestArgs.md)|Simple creation of system request. (V36)BuildEasyRequest -- Varargs stub for BuildEasyRequestArgs(). (V36)|
+|[BuildEasyRequestArgs](libs/intuition/BuildEasyRequestArgs.md)|Simple creation of system request. (V36) BuildEasyRequest -- Varargs stub for BuildEasyRequestArgs(). (V36)|
 |[BuildSysRequest](libs/intuition/BuildSysRequest.md)|Build and display a system requester.|
 |[ChangeWindowBox](libs/intuition/ChangeWindowBox.md)|Change window position and dimensions. (V36)|
 |[ClearDMRequest](libs/intuition/ClearDMRequest.md)|Clear (detaches) the DMRequest of the window.|
@@ -928,7 +928,7 @@
 |[DrawBorder](libs/intuition/DrawBorder.md)|Draw the specified [Border](_00D4.md) structure into a [RastPort](_00AF.md).|
 |[DrawImage](libs/intuition/DrawImage.md)|Draw the specified [Image](_00D4.md) structure into a [RastPort](_00AF.md).|
 |[DrawImageState](libs/intuition/DrawImageState.md)|Draw an (extended) Intuition [Image](_00D4.md) with special visual state. (V36)|
-|[EasyRequestArgs](libs/intuition/EasyRequestArgs.md)|Easy alternative to [AutoRequest](AutoRequest.md). (V36)EasyRequest -- Varargs stub for EasyRequestArgs(). (V36)|
+|[EasyRequestArgs](libs/intuition/EasyRequestArgs.md)|Easy alternative to [AutoRequest](AutoRequest.md). (V36) EasyRequest -- Varargs stub for EasyRequestArgs(). (V36)|
 |[EndRefresh](libs/intuition/EndRefresh.md)|End the optimized refresh state of the window.|
 |[EndRequest](libs/intuition/EndRequest.md)|Remove a currently active requester.|
 |[EraseImage](libs/intuition/EraseImage.md)|Erases an [Image](_00D4.md). (V36)|
@@ -957,7 +957,7 @@
 |[MoveWindow](libs/intuition/MoveWindow.md)|Ask Intuition to move a window.|
 |[MoveWindowInFrontOf](libs/intuition/MoveWindowInFrontOf.md)|Arrange the relative depth of a window. (V36)|
 |[NewModifyProp](libs/intuition/NewModifyProp.md)|[ModifyProp](ModifyProp.md), but with selective refresh.|
-|[NewObject](libs/intuition/NewObject.md)|Create an object from a class. (V36)NewObject -- Varargs stub for NewObjectA(). (V36)|
+|[NewObject](libs/intuition/NewObject.md)|Create an object from a class. (V36) NewObject -- Varargs stub for NewObjectA(). (V36)|
 |[NextObject](libs/intuition/NextObject.md)|iterate through the object on an Exec list. (V36)|
 |[NextPubScreen](libs/intuition/NextPubScreen.md)|Identify next public screen in the cycle. (V36)|
 |[ObtainGIRPort](libs/intuition/ObtainGIRPort.md)|Set up a [RastPort](_00AF.md) for a custom gadget. (V36)|
@@ -966,9 +966,9 @@
 |[OnGadget](libs/intuition/OnGadget.md)|Enable the specified gadget.|
 |[OnMenu](libs/intuition/OnMenu.md)|Enable the given menu or menu item.|
 |[OpenScreen](libs/intuition/OpenScreen.md)|Open an Intuition screen.|
-|[OpenScreenTagList](libs/intuition/OpenScreenTagList.md)|[OpenScreen](OpenScreen.md) with [TagItem](_012E.md) extension array. (V36)OpenScreenTags -- Varargs stub for OpenScreenTagList. (V36)|
+|[OpenScreenTagList](libs/intuition/OpenScreenTagList.md)|[OpenScreen](OpenScreen.md) with [TagItem](_012E.md) extension array. (V36) OpenScreenTags -- Varargs stub for OpenScreenTagList. (V36)|
 |[OpenWindow](libs/intuition/OpenWindow.md)|Open an Intuition window.|
-|[OpenWindowTagList](libs/intuition/OpenWindowTagList.md)|[OpenWindow](OpenWindow.md) with [TagItem](_012E.md) extension. (V36)OpenWindowTags -- Varargs stub for OpenWindowTagList (V36)|
+|[OpenWindowTagList](libs/intuition/OpenWindowTagList.md)|[OpenWindow](OpenWindow.md) with [TagItem](_012E.md) extension. (V36) OpenWindowTags -- Varargs stub for OpenWindowTagList (V36)|
 |[OpenWorkBench](libs/intuition/OpenWorkBench.md)|Open the Workbench screen.|
 |[PointInImage](libs/intuition/PointInImage.md)|Tests whether an image &#034;contains&#034; a point. (V36)|
 |[PrintIText](libs/intuition/PrintIText.md)|Print text described by the [IntuiText](_00D4.md) argument.|
@@ -988,11 +988,11 @@
 |[RethinkDisplay](libs/intuition/RethinkDisplay.md)|Grand manipulation of the entire Intuition display.|
 |[ScreenToBack](libs/intuition/ScreenToBack.md)|Send the specified screen to the back of the display.|
 |[ScreenToFront](libs/intuition/ScreenToFront.md)|Make the specified screen the frontmost.|
-|[SetAttrsA](libs/intuition/SetAttrsA.md)|Specify attribute values for an object. (V36)SetAttrs -- Varargs stub for SetAttrsA(). (V36)|
+|[SetAttrsA](libs/intuition/SetAttrsA.md)|Specify attribute values for an object. (V36) SetAttrs -- Varargs stub for SetAttrsA(). (V36)|
 |[SetDefaultPubScreen](libs/intuition/SetDefaultPubScreen.md)|Choose a new default public screen. (V36)|
 |[SetDMRequest](libs/intuition/SetDMRequest.md)|Set the DMRequest of a window.|
 |[SetEditHook](libs/intuition/SetEditHook.md)|Set global processing for string gadgets. (V36)|
-|[SetGadgetAttrsA](libs/intuition/SetGadgetAttrsA.md)|Specify attribute values for a boopsi gadget. (V36)SetGadgetAttrs -- Varargs stub for SetGadgetAttrsA(). (V36)|
+|[SetGadgetAttrsA](libs/intuition/SetGadgetAttrsA.md)|Specify attribute values for a boopsi gadget. (V36) SetGadgetAttrs -- Varargs stub for SetGadgetAttrsA(). (V36)|
 |[SetMenuStrip](libs/intuition/SetMenuStrip.md)|Attach a menu strip to a window.|
 |[SetMouseQueue](libs/intuition/SetMouseQueue.md)|Change limit on pending mouse messages. (V36)|
 |[SetPointer](libs/intuition/SetPointer.md)|Specify a pointer sprite image for a window.|

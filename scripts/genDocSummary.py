@@ -9,8 +9,8 @@ def read_description(filepathname):
         start_pos = contents.find("**NAME**")
         end_pos = contents.find("**SYNOPSIS**")
         if (start_pos >= 0) and (end_pos > start_pos+8):
-            subs = contents[start_pos +
-                            8:end_pos].replace("\n", "").replace("\r", "").strip()
+            # Join the wrapped lines with a single space
+            subs = " ".join(contents[start_pos + 8:end_pos].split())
             minus_pos = subs.find("--")
             if (minus_pos > 0):
                 return subs[minus_pos+2:].strip()

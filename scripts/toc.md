@@ -15,7 +15,7 @@ Source: [Amiga Developer Docs from elowar](http://amigadev.elowar.com/)
 
 ## Licenses
 
-The amiga libraries ara part of development tools of Commodore Amiga Incorporated licensed by [Cloanto Coporation](https://cloanto.com)
+The Amiga libraries are part of the development tools of Commodore Amiga Incorporated licensed by [Cloanto Corporation](https://cloanto.com)
 These files are made available here free of charge for learning purposes and without the intention of doing any harm.
 Please contact the extension developer to discuss any issues.
 
