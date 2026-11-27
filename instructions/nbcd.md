@@ -19,7 +19,13 @@ The operand addressed as the destination and the extend bit in the CCR are subtr
 |--|--|--|--|--|
 |*|U|*|U|*|
 
-The Z-bit is cleared if the result is non-zero and is unchanged otherwise. The C-bit is set if a decimal borrow occurs. The X-bit is set to the same value as the C-bit.
+ - X: Set the same as the carry bit.
+ - N: Undefined.
+ - Z: Cleared if the result is nonzero, unchanged otherwise.
+ - V: Undefined.
+ - C: Set if a decimal borrow occurs, cleared otherwise.
+
+The C-bit is set if a decimal borrow occurs.
 
 ## Destination operand addressing modes
 |Dn|An|(An)|(An)+|&#x2011;(An)|(d,An)|(d,An,Xi)|ABS.W|ABS.L|(d,PC)|(d,PC,Xn)|imm|

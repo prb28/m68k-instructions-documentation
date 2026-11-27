@@ -31,7 +31,11 @@ The effect of an arithmetic shift right is to shift the least-significant bit in
 |--|--|--|--|--|
 |*|*|*|*|*|
 
-The X-bit and the C-bit are set according to the last bit shifted out of the operand. If the shift count is zero, the C-bit is cleared. The V-bit is set if the most-significant bit is changed at any time during the shift operation and cleared otherwise.
+ - X: Set according to the last bit shifted out of the operand, unaffected for a shift count of zero.
+ - N: Set if the most significant bit of the result is set, cleared otherwise.
+ - Z: Set if the result is zero, cleared otherwise.
+ - V: Set if the most significant bit is changed at any time during the shift operation, cleared otherwise.
+ - C: Set according to the last bit shifted out of the operand, cleared for a shift count of zero.
 
 ### Destination operand addressing modes
 |Dn|An|(An)|(An)+|&#x2011;(An)|(d,An)|(d,An,Xi)|ABS.W|ABS.L|(d,PC)|(d,PC,Xn)|imm|

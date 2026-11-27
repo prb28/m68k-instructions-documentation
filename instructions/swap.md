@@ -23,6 +23,10 @@ The `SWAP Dn` instruction enables the higher-order word in a register to take pa
 |--|--|--|--|--|
 |-|*|*|0|0|
 
-The N-bit is set if most-significant bit of the 32-bit result is set and cleared otherwise. The Z-bit is set if 32-bit result is zero and cleared otherwise.
+ - X: Not affected.
+ - N: Set if the most significant bit of the 32-bit result is set, cleared otherwise.
+ - Z: Set if the 32-bit result is zero, cleared otherwise.
+ - V: Always cleared.
+ - C: Always cleared.
 
 *From MOTOROLA M68000 FAMILY Programmer's reference manual. Copyright 1992 by Motorola Inc./NXP. Adapted with permission.*

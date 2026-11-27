@@ -46,6 +46,6 @@ AGAIN BSR     INPUT     ;Get the data in D1
 |--|--|--|--|--|
 |-|-|-|-|-|
 
-Not affected
+Not affected.
 
 *From MOTOROLA M68000 FAMILY Programmer's reference manual. Copyright 1992 by Motorola Inc./NXP. Adapted with permission.*

@@ -19,6 +19,12 @@ OR the immediate data with the destination operand. Store the result in the dest
 |--|--|--|--|--|
 |-|*|*|0|0|
 
+ - X: Not affected.
+ - N: Set if the most significant bit of the result is set, cleared otherwise.
+ - Z: Set if the result is zero, cleared otherwise.
+ - V: Always cleared.
+ - C: Always cleared.
+
 ## Application
 `ORI` forms the logical OR of the immediate source with the effective address, which may be a memory location. For example,
 
@@ -52,11 +58,11 @@ OR the immediate data with the condition code register (i.e., the least-signific
 |--|--|--|--|--|
 |*|*|*|*|*|
 
-X is set if bit 4 of data = 1; unchanged otherwise</br>
-N is set if bit 3 of data = 1; unchanged otherwise</br>
-Z is set if bit 2 of data = 1; unchanged otherwise</br>
-V is set if bit 1 of data = 1; unchanged otherwise</br>
-C is set if bit 0 of data = 1; unchanged otherwise</br>
+ - X is set if bit 4 of data = 1, unchanged otherwise.
+ - N is set if bit 3 of data = 1, unchanged otherwise.
+ - Z is set if bit 2 of data = 1, unchanged otherwise.
+ - V is set if bit 1 of data = 1, unchanged otherwise.
+ - C is set if bit 0 of data = 1, unchanged otherwise.
 
 # ORI to SR - Inclusive OR immediate to status register
 
@@ -86,10 +92,10 @@ Used to set bits in the SR (i.e., the S, T, and interrupt mask bits). For exampl
 |--|--|--|--|--|
 |*|*|*|*|*|
 
-X is set if bit 4 of data = 1; unchanged otherwise<br/>
-N is set if bit 3 of data = 1; unchanged otherwise<br/>
-Z is set if bit 2 of data = 1; unchanged otherwise<br/>
-V is set if bit 1 of data = 1; unchanged otherwise<br/>
-C is set if bit 0 of data = 1; unchanged otherwise
+ - X is set if bit 4 of data = 1, unchanged otherwise.
+ - N is set if bit 3 of data = 1, unchanged otherwise.
+ - Z is set if bit 2 of data = 1, unchanged otherwise.
+ - V is set if bit 1 of data = 1, unchanged otherwise.
+ - C is set if bit 0 of data = 1, unchanged otherwise.
 
 *From MOTOROLA M68000 FAMILY Programmer's reference manual. Copyright 1992 by Motorola Inc./NXP. Adapted with permission.*

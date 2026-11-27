@@ -24,4 +24,6 @@ A `BRA` is an unconditional relative jump (or goto). You use a `BRA` instruction
 |--|--|--|--|--|
 |-|-|-|-|-|
 
+Not affected.
+
 *From MOTOROLA M68000 FAMILY Programmer's reference manual. Copyright 1992 by Motorola Inc./NXP. Adapted with permission.*

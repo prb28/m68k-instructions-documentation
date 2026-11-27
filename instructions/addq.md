@@ -27,6 +27,12 @@ Add the immediate data to the contents of the destination operand. The immediate
 |--|--|--|--|--|
 |*|*|*|*|*|
 
+ - X: Set the same as the carry bit.
+ - N: Set if the result is negative, cleared otherwise.
+ - Z: Set if the result is zero, cleared otherwise.
+ - V: Set if an overflow occurs, cleared otherwise.
+ - C: Set if a carry occurs, cleared otherwise.
+
 Note that the CCR is not updated if the destination operand is an address register.
 
 ### Destination operand addressing modes

@@ -24,7 +24,11 @@ If the operation `BCHG #4,$1234` is carried out and the contents of memory locat
 |--|--|--|--|--|
 |-|-|*|-|-|
 
-Z: set if the bit tested is zero, cleared otherwise.
+ - X: Not affected.
+ - N: Not affected.
+ - Z: Set if the bit tested is zero, cleared otherwise.
+ - V: Not affected.
+ - C: Not affected.
 
 ### Destination operand addressing modes
 |Dn|An|(An)|(An)+|&#x2011;(An)|(d,An)|(d,An,Xi)|ABS.W|ABS.L|(d,PC)|(d,PC,Xn)|imm|

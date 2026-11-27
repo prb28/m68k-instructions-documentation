@@ -23,6 +23,12 @@ The destination is cleared - loaded with all zeros. The `CLR` instruction can't 
 |--|--|--|--|--|
 |-|0|1|0|0|
 
+ - X: Not affected.
+ - N: Always cleared.
+ - Z: Always set.
+ - V: Always cleared.
+ - C: Always cleared.
+
 ## Source operand addressing modes
 |Dn|An|(An)|(An)+|&#x2011;(An)|(d,An)|(d,An,Xi)|ABS.W|ABS.L|(d,PC)|(d,PC,Xn)|imm|
 |:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|

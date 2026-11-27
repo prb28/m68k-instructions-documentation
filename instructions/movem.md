@@ -42,7 +42,7 @@ Note that the `MOVEM` instruction has a side effect. An extra bus cycle occurs f
 ## Application
 This instruction is invariably used to save working registers on entry to a subroutine and to restore them at the end of a subroutine.
 
-## Example 
+## Example
 ```assembly
         BSR     Example
         .
@@ -61,6 +61,8 @@ Example MOVEM.L D0-D5/A0-A3,-(SP)    ;Save registers
 |X|N|Z|V|C|
 |--|--|--|--|--|
 |-|-|-|-|-|
+
+Not affected.
 
 ## Source operand addressing modes (memory to register)
 |Dn|An|(An)|(An)+|&#x2011;(An)|(d,An)|(d,An,Xi)|ABS.W|ABS.L|(d,PC)|(d,PC,Xn)|imm|

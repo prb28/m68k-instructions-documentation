@@ -38,4 +38,10 @@ RPT CMPM.W (A0)+,(A1)+    ;Compare pair of words
 |--|--|--|--|--|
 |-|*|*|*|*|
 
+ - X: Not affected.
+ - N: Set if the result is negative, cleared otherwise.
+ - Z: Set if the result is zero, cleared otherwise.
+ - V: Set if an overflow is generated, cleared otherwise.
+ - C: Set if a borrow is generated, cleared otherwise.
+
 *From MOTOROLA M68000 FAMILY Programmer's reference manual. Copyright 1992 by Motorola Inc./NXP. Adapted with permission.*

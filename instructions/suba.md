@@ -19,6 +19,8 @@ Subtract the source operand from the destination operand and store the result in
 |--|--|--|--|--|
 |-|-|-|-|-|
 
+Not affected.
+
 ## Source operand addressing modes
 |Dn|An|(An)|(An)+|&#x2011;(An)|(d,An)|(d,An,Xi)|ABS.W|ABS.L|(d,PC)|(d,PC,Xn)|imm|
 |:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|

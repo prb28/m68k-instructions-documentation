@@ -30,7 +30,11 @@ Consider the division of D0 by D1, `DIVU D1,D0`, which results in:
 |--|--|--|--|--|
 |-|*|*|*|0|
 
-The X-bit is not affected by a division. The N-bit is set if the quotient is negative. The Z-bit is set if the quotient is zero. The V-bit is set if division overflow occurs (in which case the Z- and N-bits are undefined). The C-bit is always cleared.
+ - X: not affected by a division.
+ - N: set if the quotient is negative, cleared otherwise, undefined if overflow or divide by zero occurs.
+ - Z: set if the quotient is zero, cleared otherwise, undefined if overflow or divide by zero occurs.
+ - V: set if division overflow occurs, undefined if divide by zero occurs, cleared otherwise.
+ - C: always cleared.
 
 ## Source operand addressing modes
 |Dn|An|(An)|(An)+|&#x2011;(An)|(d,An)|(d,An,Xi)|ABS.W|ABS.L|(d,PC)|(d,PC,Xn)|imm|

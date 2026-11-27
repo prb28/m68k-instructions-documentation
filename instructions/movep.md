@@ -38,4 +38,6 @@ This code results in the following actions:
 |--|--|--|--|--|
 |-|-|-|-|-|
 
+Not affected.
+
 *From MOTOROLA M68000 FAMILY Programmer's reference manual. Copyright 1992 by Motorola Inc./NXP. Adapted with permission.*

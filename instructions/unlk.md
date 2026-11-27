@@ -22,4 +22,6 @@ The `UNLK` instruction is used in conjunction with the `LINK` instruction. The `
 |--|--|--|--|--|
 |-|-|-|-|-|
 
+Not affected.
+
 *From MOTOROLA M68000 FAMILY Programmer's reference manual. Copyright 1992 by Motorola Inc./NXP. Adapted with permission.*

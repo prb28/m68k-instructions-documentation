@@ -26,6 +26,12 @@ The EOR instruction is used to *toggle* (i.e., change the state of) selected bit
 |--|--|--|--|--|
 |-|*|*|0|0|
 
+ - X: Not affected.
+ - N: Set if the most significant bit of the result is set, cleared otherwise.
+ - Z: Set if the result is zero, cleared otherwise.
+ - V: Always cleared.
+ - C: Always cleared.
+
 ## Destination operand addressing modes
 |Dn|An|(An)|(An)+|&#x2011;(An)|(d,An)|(d,An,Xi)|ABS.W|ABS.L|(d,PC)|(d,PC,Xn)|imm|
 |:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|

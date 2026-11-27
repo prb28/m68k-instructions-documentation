@@ -19,6 +19,12 @@ ANDI #<data>,<ea>
 |--|--|--|--|--|
 |-|*|*|0|0|
 
+ - X: Not affected.
+ - N: Set if the most significant bit of the result is set, cleared otherwise.
+ - Z: Set if the result is zero, cleared otherwise.
+ - V: Always cleared.
+ - C: Always cleared.
+
 ### Destination operand addressing modes
 |Dn|An|(An)|(An)+|&#x2011;(An)|(d,An)|(d,An,Xi)|ABS.W|ABS.L|(d,PC)|(d,PC,Xn)|imm|
 |:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
@@ -48,11 +54,11 @@ ANDI #<data>,CCR
 |--|--|--|--|--|
 |*|*|*|*|*|
 
-- X: cleared if bit 4 of data is zero
-- N: cleared if bit 3 of data is zero
-- Z: cleared if bit 2 of data is zero
-- V: cleared if bit 1 of data is zero
-- C: cleared if bit 0 of data is zero
+ - X: cleared if bit 4 of data is zero, unchanged otherwise.
+ - N: cleared if bit 3 of data is zero, unchanged otherwise.
+ - Z: cleared if bit 2 of data is zero, unchanged otherwise.
+ - V: cleared if bit 1 of data is zero, unchanged otherwise.
+ - C: cleared if bit 0 of data is zero, unchanged otherwise.
 
 # ANDI to SR - AND immediate to status register
 
