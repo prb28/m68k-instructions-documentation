@@ -20,6 +20,12 @@ Subtract the source operand from the destination operand together with the X-bit
 |--|--|--|--|--|
 |*|U|*|U|*|
 
-Z: Cleared if result is non-zero. Unchanged otherwise. The Z-bit can be used to test for zero after a chain of multiple precision operations.
+ - X: Set the same as the carry bit.
+ - N: Undefined.
+ - Z: Cleared if the result is nonzero, unchanged otherwise.
+ - V: Undefined.
+ - C: Set if a borrow (decimal) is generated, cleared otherwise.
+
+The Z-bit can be used to test for zero after a chain of multiple precision operations.
 
 *From MOTOROLA M68000 FAMILY Programmer's reference manual. Copyright 1992 by Motorola Inc./NXP. Adapted with permission.*

@@ -19,7 +19,11 @@ Subtract the destination operand from 0 and store the result in the destination 
 |--|--|--|--|--|
 |*|*|*|*|*|
 
-Note that the X-bit is set to the value of the C-bit.
+ - X: Set the same as the carry bit.
+ - N: Set if the result is negative, cleared otherwise.
+ - Z: Set if the result is zero, cleared otherwise.
+ - V: Set if an overflow occurs, cleared otherwise.
+ - C: Cleared if the result is zero, set otherwise.
 
 ## Destination operand addressing modes
 |Dn|An|(An)|(An)+|&#x2011;(An)|(d,An)|(d,An,Xi)|ABS.W|ABS.L|(d,PC)|(d,PC,Xn)|imm|

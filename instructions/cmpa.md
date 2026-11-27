@@ -25,6 +25,13 @@ Subtract the source operand from the destination address register and set the co
 |--|--|--|--|--|
 |-|*|*|*|*|
 
+ - X: Not affected.
+ - N: Set if the result is negative, cleared otherwise.
+ - Z: Set if the result is zero, cleared otherwise.
+ - V: Set if an overflow is generated, cleared otherwise.
+ - C: Set if a borrow is generated, cleared otherwise.
+
+
 ## Source operand addressing modes
 |Dn|An|(An)|(An)+|&#x2011;(An)|(d,An)|(d,An,Xi)|ABS.W|ABS.L|(d,PC)|(d,PC,Xn)|imm|
 |:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|

@@ -24,4 +24,6 @@ Any *unknown* pattern of bits read by the 68000 during an instruction read phase
 |--|--|--|--|--|
 |-|-|-|-|-|
 
+Not affected.
+
 *From MOTOROLA M68000 FAMILY Programmer's reference manual. Copyright 1992 by Motorola Inc./NXP. Adapted with permission.*

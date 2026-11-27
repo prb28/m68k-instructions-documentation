@@ -22,4 +22,10 @@ Move the specified literal to a data register. The literal data is an eight-bit 
 |--|--|--|--|--|
 |-|*|*|0|0|
 
+ - X: Not affected.
+ - N: Set if the result is negative, cleared otherwise.
+ - Z: Set if the result is zero, cleared otherwise.
+ - V: Always cleared.
+ - C: Always cleared.
+
 *From MOTOROLA M68000 FAMILY Programmer's reference manual. Copyright 1992 by Motorola Inc./NXP. Adapted with permission.*

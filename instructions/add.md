@@ -20,6 +20,12 @@ Add the source operand to the destination operand and store the result in the de
 |--|--|--|--|--|
 |*|*|*|*|*|
 
+ - X: Set the same as the carry bit.
+ - N: Set if the result is negative, cleared otherwise.
+ - Z: Set if the result is zero, cleared otherwise.
+ - V: Set if an overflow is generated, cleared otherwise.
+ - C: Set if a carry is generated, cleared otherwise.
+
 ### Source operand addressing modes
 |Dn|An|(An)|(An)+|&#x2011;(An)|(d,An)|(d,An,Xi)|ABS.W|ABS.L|(d,PC)|(d,PC,Xn)|imm|
 |:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|

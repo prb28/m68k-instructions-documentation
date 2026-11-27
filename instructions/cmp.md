@@ -23,6 +23,12 @@ Subtract the source operand from the destination operand and set the condition c
 |--|--|--|--|--|
 |-|*|*|*|*|
 
+ - X: Not affected.
+ - N: Set if the result is negative, cleared otherwise.
+ - Z: Set if the result is zero, cleared otherwise.
+ - V: Set if an overflow occurs, cleared otherwise.
+ - C: Set if a borrow occurs, cleared otherwise.
+
 ## Source operand addressing modes
 |Dn|An|(An)|(An)+|&#x2011;(An)|(d,An)|(d,An,Xi)|ABS.W|ABS.L|(d,PC)|(d,PC,Xn)|imm|
 |:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|

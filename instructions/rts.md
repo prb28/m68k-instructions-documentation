@@ -19,4 +19,6 @@ The program counter is pulled from the stack and the previous value of the PC is
 |--|--|--|--|--|
 |-|-|-|-|-|
 
+Not affected.
+
 *From MOTOROLA M68000 FAMILY Programmer's reference manual. Copyright 1992 by Motorola Inc./NXP. Adapted with permission.*

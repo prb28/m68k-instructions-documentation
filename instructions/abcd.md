@@ -32,6 +32,12 @@ LOOP    ABCD -(A0),-(A1)    ;Add a pair of digits
 |--|--|--|--|--|
 |*|U|*|U|*|
 
-The Z-bit is cleared if the result is non-zero, and left unchanged otherwise. The Z-bit is normally set by the programmer before the BCD operation, and can be used to test for zero after a chain of multiple-precision operations. The C-bit is set if a decimal carry is generated.
+ - X: Set the same as the carry bit.
+ - N: Undefined.
+ - Z: Cleared if the result is nonzero, unchanged otherwise.
+ - V: Undefined.
+ - C: Set if a decimal carry was generated, cleared otherwise.
+
+The Z-bit is normally set by the programmer before the BCD operation, and can be used to test for zero after a chain of multiple-precision operations. The C-bit is set if a decimal carry is generated.
 
 *From MOTOROLA M68000 FAMILY Programmer's reference manual. Copyright 1992 by Motorola Inc./NXP. Adapted with permission.*

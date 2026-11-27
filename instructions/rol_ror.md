@@ -26,7 +26,11 @@ Rotate the bits of the operand in the direction indicated. The extend bit, X, is
 |--|--|--|--|--|
 |-|*|*|0|*|
 
-The X-bit is not affected and the C-bit is set to the last bit rotated out of the operand (C is set to zero if the shift count is 0).
+ - X: Not affected.
+ - N: Set if the most significant bit of the result is set, cleared otherwise.
+ - Z: Set if the result is zero, cleared otherwise.
+ - V: Always cleared.
+ - C: Set according to the last bit rotated out of the operand, cleared when the rotate count is zero.
 
 ## Destination operand addressing modes
 |Dn|An|(An)|(An)+|&#x2011;(An)|(d,An)|(d,An,Xi)|ABS.W|ABS.L|(d,PC)|(d,PC,Xn)|imm|

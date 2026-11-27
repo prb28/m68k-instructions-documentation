@@ -19,6 +19,12 @@ EOR the immediate data with the contents of the destination operand. Store the r
 |--|--|--|--|--|
 |-|*|*|0|0|
 
+ - X: Not affected.
+ - N: Set if the most significant bit of the result is set, cleared otherwise.
+ - Z: Set if the result is zero, cleared otherwise.
+ - V: Always cleared.
+ - C: Always cleared.
+
 ## Destination operand addressing modes
 |Dn|An|(An)|(An)+|&#x2011;(An)|(d,An)|(d,An,Xi)|ABS.W|ABS.L|(d,PC)|(d,PC,Xn)|imm|
 |:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
@@ -47,11 +53,11 @@ Used to toggle bits in the CCR. For example, `EORI #$0C,CCR` toggles the N- and 
 |--|--|--|--|--|
 |*|*|*|*|*|
 
-X:= toggled if bit 4 of data = 1; unchanged otherwise<br/>
-N:= toggled if bit 3 of data = 1; unchanged otherwise<br/>
-Z:= toggled if bit 2 of data = 1; unchanged otherwise<br/>
-V:= toggled if bit 1 of data = 1; unchanged otherwise<br/>
-C:= toggled if bit 0 of data = 1; unchanged otherwise<br/>
+ - X: changed if bit 4 of data = 1, unchanged otherwise.
+ - N: changed if bit 3 of data = 1, unchanged otherwise.
+ - Z: changed if bit 2 of data = 1, unchanged otherwise.
+ - V: changed if bit 1 of data = 1, unchanged otherwise.
+ - C: changed if bit 0 of data = 1, unchanged otherwise.
 
 # EORI to SR - Exclusive-OR immediate to status register
 
@@ -76,10 +82,10 @@ EOR (exclusive OR) the immediate data with the contents of the status register a
 |--|--|--|--|--|
 |*|*|*|*|*|
 
-X:= toggled if bit 4 of data = 1; unchanged otherwise<br/>
-N:= toggled if bit 3 of data = 1; unchanged otherwise<br/>
-Z:= toggled if bit 2 of data = 1; unchanged otherwise<br/>
-V:= toggled if bit 1 of data = 1; unchanged otherwise<br/>
-C:= toggled if bit 0 of data = 1; unchanged otherwise<br/>
+ - X: changed if bit 4 of data = 1, unchanged otherwise.
+ - N: changed if bit 3 of data = 1, unchanged otherwise.
+ - Z: changed if bit 2 of data = 1, unchanged otherwise.
+ - V: changed if bit 1 of data = 1, unchanged otherwise.
+ - C: changed if bit 0 of data = 1, unchanged otherwise.
 
 *From MOTOROLA M68000 FAMILY Programmer's reference manual. Copyright 1992 by Motorola Inc./NXP. Adapted with permission.*

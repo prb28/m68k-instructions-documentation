@@ -22,7 +22,13 @@ operand and store the result in the destination. Both the source and destination
 ## Condition codes
 |X|N|Z|V|C|
 |--|--|--|--|--|
-|-|*|*|0|0|
+|-|*|*|*|0|
+
+ - X: Not affected.
+ - N: Set if the result is negative, cleared otherwise.
+ - Z: Set if the result is zero, cleared otherwise.
+ - V: Set if overflow, cleared otherwise.
+ - C: Always cleared.
 
 ## Source operand addressing modes
 |Dn|An|(An)|(An)+|&#x2011;(An)|(d,An)|(d,An,Xi)|ABS.W|ABS.L|(d,PC)|(d,PC,Xn)|imm|

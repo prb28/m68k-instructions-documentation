@@ -29,7 +29,11 @@ If [D3.W] = 1100110010101110<sub>2</sub> , the instruction `LSL.W #5,D3` produce
 |--|--|--|--|--|
 |*|*|*|0|*|
 
-The X-bit is set to the last bit shifted out of the operand and is equal to the C-bit. However, a zero shift count leaves the X-bit unaffected and the C-bit cleared.
+ - X: Set according to the last bit shifted out of the operand, unaffected for a shift count of zero.
+ - N: Set if the result is negative, cleared otherwise.
+ - Z: Set if the result is zero, cleared otherwise.
+ - V: Always cleared.
+ - C: Set according to the last bit shifted out of the operand, cleared for a shift count of zero.
 
 ## Destination operand addressing modes
 |Dn|An|(An)|(An)+|&#x2011;(An)|(d,An)|(d,An,Xi)|ABS.W|ABS.L|(d,PC)|(d,PC,Xn)|imm|

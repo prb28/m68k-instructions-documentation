@@ -22,6 +22,12 @@ The `TAS` instruction permits one processor in a multiprocessor system to test a
 |--|--|--|--|--|
 |-|*|*|0|0|
 
+ - X: Not affected.
+ - N: Set if the most significant bit of the operand is currently set, cleared otherwise.
+ - Z: Set if the operand was zero, cleared otherwise.
+ - V: Always cleared.
+ - C: Always cleared.
+
 ## Source operand addressing modes
 |Dn|An|(An)|(An)+|&#x2011;(An)|(d,An)|(d,An,Xi)|ABS.W|ABS.L|(d,PC)|(d,PC,Xn)|imm|
 |:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
